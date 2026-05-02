@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TargetBankr — Banking Exam Digital Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy:  { DEFAULT: '#0B1F4A', light: '#1a3260', muted: '#3d5a8a' },
+            pine:  { DEFAULT: '#1A5C3A', light: '#22754A', muted: '#4a8c6a' },
+            gold:  { DEFAULT: '#C49A22', light: '#DDB431', pale: '#FDF6DC' },
+            cream: '#FAFAF8',
+          },
+          fontFamily: {
+            serif: ['"DM Serif Display"', 'Georgia', 'serif'],
+            sans:  ['"DM Sans"', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', system-ui, sans-serif; background: #FAFAF8; color: #0B1F4A; -webkit-font-smoothing: antialiased; }
+
+    .gold-rule { display: inline-block; width: 48px; height: 3px; background: linear-gradient(90deg, #C49A22, #DDB431); border-radius: 2px; }
+
+    .site-nav { position: sticky; top: 0; z-index: 50; background: rgba(250,250,248,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid #e8e4dc; }
+
+    .hero-bg { background: linear-gradient(160deg, #0B1F4A 0%, #1a3260 55%, #1A5C3A 100%); position: relative; overflow: hidden; }
+    .hero-bg::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 20% 50%, rgba(196,154,34,0.12) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(26,92,58,0.2) 0%, transparent 40%); }
+    .hero-bg::after { content: ''; position: absolute; bottom: -2px; left: 0; right: 0; height: 60px; background: #FAFAF8; clip-path: ellipse(55% 100% at 50% 100%); }
+
+    .badge-pill { display: inline-flex; align-items: center; gap: 6px; background: rgba(196,154,34,0.15); border: 1px solid rgba(196,154,34,0.35); color: #DDB431; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 14px; border-radius: 999px; }
+    .badge-dot { width: 6px; height: 6px; background: #DDB431; border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1}50%{opacity:.4} }
+
+    .stat-item { text-align: center; }
+    .stat-num  { font-family: 'DM Serif Display', serif; font-size: 2rem; color: #0B1F4A; line-height: 1; }
+    .stat-lbl  { font-size: 0.72rem; color: #3d5a8a; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; margin-top: 2px; }
+
+    .section-label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1A5C3A; }
+
+    .product-card { background: #fff; border: 1px solid #eae6de; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.22s ease, box-shadow 0.22s ease; position: relative; }
+    .product-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(11,31,74,0.10); }
+    .product-card.featured { border-color: #C49A22; box-shadow: 0 0 0 1px #C49A22; }
+    .badge-featured { position: absolute; top: 16px; right: 16px; background: linear-gradient(135deg, #C49A22, #DDB431); color: #fff; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; }
+    .card-icon-wrap { width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; flex-shrink: 0; }
+    .tag-pill { display: inline-block; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; }
+    .card-feature { display: flex; align-items: flex-start; gap: 8px; font-size: 0.82rem; color: #3d5a8a; }
+    .card-feature svg { flex-shrink: 0; margin-top: 2px; }
+
+    .price-orig { font-size: 0.82rem; color: #9ca3af; text-decoration: line-through; }
+    .price-main { font-family: 'DM Serif Display', serif; font-size: 1.9rem; color: #0B1F4A; line-height: 1; }
+    .price-off   { font-size: 0.72rem; font-weight: 700; color: #1A5C3A; background: #e6f4ec; padding: 2px 8px; border-radius: 999px; }
+
+    .btn-buy { display: block; width: 100%; text-align: center; padding: 14px 24px; border-radius: 10px; font-weight: 600; font-size: 0.92rem; letter-spacing: 0.02em; text-decoration: none; transition: all 0.18s ease; min-height: 48px; cursor: pointer; border: none; }
+    .btn-buy-primary { background: linear-gradient(135deg, #1A5C3A, #22754A); color: #fff; box-shadow: 0 4px 14px rgba(26,92,58,0.30); }
+    .btn-buy-primary:hover { background: linear-gradient(135deg, #164d30, #1A5C3A); box-shadow: 0 6px 20px rgba(26,92,58,0.40); transform: translateY(-1px); }
+    .btn-buy-gold { background: linear-gradient(135deg, #C49A22, #DDB431); color: #fff; box-shadow: 0 4px 14px rgba(196,154,34,0.35); }
+    .btn-buy-gold:hover { box-shadow: 0 6px 20px rgba(196,154,34,0.50); transform: translateY(-1px); }
+    .btn-outline { background: transparent; border: 1.5px solid #0B1F4A; color: #0B1F4A; }
+    .btn-outline:hover { background: #0B1F4A; color: #fff; }
+    .btn-coming-soon { background: #e8e4dc; color: #9ca3af; cursor: not-allowed; }
+
+    .testi-card { background: #fff; border: 1px solid #eae6de; border-radius: 14px; padding: 24px; }
+    .stars { color: #C49A22; font-size: 1rem; letter-spacing: 1px; }
+    .avatar-ring { width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, #0B1F4A, #1A5C3A); display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: 700; color: #DDB431; flex-shrink: 0; }
+
+    .guarantee-strip { background: linear-gradient(135deg, #0B1F4A, #1a3260); border-radius: 18px; }
+
+    footer { border-top: 1px solid #eae6de; }
+    .footer-link { font-size: 0.82rem; color: #3d5a8a; text-decoration: none; transition: color 0.15s; }
+    .footer-link:hover { color: #0B1F4A; }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+    .anim-1 { animation: fadeUp 0.6s ease both; }
+    .anim-2 { animation: fadeUp 0.6s ease 0.12s both; }
+    .anim-3 { animation: fadeUp 0.6s ease 0.24s both; }
+    .anim-4 { animation: fadeUp 0.6s ease 0.36s both; }
+
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    .filter-tab { padding: 8px 18px; border-radius: 999px; border: 1.5px solid #eae6de; background: #fff; color: #3d5a8a; font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: all 0.18s ease; font-family: 'DM Sans', system-ui, sans-serif; letter-spacing: 0.01em; }
+    .filter-tab:hover { border-color: #C49A22; color: #0B1F4A; background: #FDF6DC; }
+    .filter-tab.active { background: #0B1F4A; color: #fff; border-color: #0B1F4A; }
+
+    /* Loading skeleton */
+    .skeleton { background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; border-radius: 12px; }
+    @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════ NAV ═══════════════════ -->
+<nav class="site-nav">
+  <div class="max-w-5xl mx-auto px-5 py-3 flex items-center justify-between">
+    <a href="#" style="text-decoration:none">
+      <span style="font-family:'DM Serif Display',serif; font-size:1.2rem; color:#0B1F4A; letter-spacing:-0.01em;">
+        Target<span style="color:#C49A22;">Bankr</span>
+      </span>
+    </a>
+    <div class="flex items-center gap-4">
+      <a href="#products" class="footer-link hidden sm:inline" style="font-size:0.85rem; font-weight:500;">Products</a>
+      <a href="#testimonials" class="footer-link hidden sm:inline" style="font-size:0.85rem; font-weight:500;">Reviews</a>
+      <a href="#products" class="btn-buy btn-buy-primary" style="display:inline-block; width:auto; padding:9px 18px; font-size:0.82rem;">
+        Browse Products
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section class="hero-bg px-5 pt-16 pb-24 text-center">
+  <div class="max-w-2xl mx-auto relative z-10">
+    <div class="badge-pill anim-1 mx-auto w-fit mb-6">
+      <span class="badge-dot"></span>
+      Trusted by 120+ Banking Aspirants
+    </div>
+    <h1 class="anim-2" style="font-family:'DM Serif Display',serif; font-size:clamp(2rem,6vw,3.2rem); line-height:1.15; color:#fff; letter-spacing:-0.02em; margin-bottom:20px;">
+      Crack IBPS, SBI & RBI<br>
+      <em style="color:#DDB431;">with the right tools.</em>
+    </h1>
+    <p class="anim-3" style="color:rgba(255,255,255,0.72); font-size:1rem; line-height:1.7; max-width:460px; margin:0 auto 32px;">
+      Interactive HTML practice tools and structured PDF guides built specifically for banking exam patterns — no fluff, just results.
+    </p>
+    <div class="anim-4 flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="#products" class="btn-buy btn-buy-gold" style="width:auto; display:inline-block; padding:14px 32px;">
+        Explore Products ↓
+      </a>
+      <a href="#guarantee" class="btn-buy" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.25); color:#fff; width:auto; display:inline-block; padding:14px 32px;">
+        Starter Suggestion
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ STATS ═══════════════════ -->
+<section class="max-w-5xl mx-auto px-5 py-10">
+  <div class="bg-white border border-gray-100 rounded-2xl shadow-sm px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-6 reveal">
+    <div class="stat-item">
+      <div class="stat-num">120+</div>
+      <div class="stat-lbl">Students Enrolled</div>
+    </div>
+    <div class="stat-item" style="border-left:1px solid #eae6de;">
+      <div class="stat-num">97%</div>
+      <div class="stat-lbl">Success Rate</div>
+    </div>
+    <div class="stat-item" style="border-left:1px solid #eae6de;">
+      <div class="stat-num">12</div>
+      <div class="stat-lbl">Practice Tools</div>
+    </div>
+    <div class="stat-item" style="border-left:1px solid #eae6de;">
+      <div class="stat-num">4.7★</div>
+      <div class="stat-lbl">Avg. Rating</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ PRODUCTS ═══════════════════ -->
+<section id="products" class="max-w-5xl mx-auto px-5 py-10">
+  <div class="text-center mb-10 reveal">
+    <div class="section-label mb-3">Our Products</div>
+    <div class="gold-rule mb-5 mx-auto"></div>
+    <h2 style="font-family:'DM Serif Display',serif; font-size:clamp(1.6rem,4vw,2.2rem); color:#0B1F4A; letter-spacing:-0.02em; line-height:1.2;">
+      Everything you need to clear the exam
+    </h2>
+    <p style="color:#3d5a8a; font-size:0.95rem; margin-top:10px; max-width:420px; margin-left:auto; margin-right:auto;">
+      Each product is exam-pattern aligned, updated for the current syllabus.
+    </p>
+  </div>
+
+  <!-- Filter Tabs -->
+  <div class="flex flex-wrap justify-center gap-2 mb-8" id="filter-tabs">
+    <button class="filter-tab active" onclick="filterProducts('home', this)">🏠 Home</button>
+    <button class="filter-tab" onclick="filterProducts('reasoning', this)">🧠 Reasoning</button>
+    <button class="filter-tab" onclick="filterProducts('quant', this)">🔢 Quantitative Aptitude</button>
+    <button class="filter-tab" onclick="filterProducts('english', this)">📝 English</button>
+    <button class="filter-tab" onclick="filterProducts('ga', this)">🌐 General Awareness</button>
+    <button class="filter-tab" onclick="filterProducts('special', this)">⭐ Special Package</button>
+  </div>
+
+  <!-- Product Grid — rendered by JS -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 reveal" id="product-grid">
+    <!-- Loading skeleton -->
+    <div class="skeleton" style="height:360px;"></div>
+    <div class="skeleton" style="height:360px;"></div>
+    <div class="skeleton" style="height:360px;"></div>
+  </div>
+  <p id="load-error" style="display:none; text-align:center; color:#c0392b; font-size:0.9rem; padding:20px;">
+    ⚠️ Could not load products. Please refresh the page or check your internet connection.
+  </p>
+</section>
+
+<!-- ═══════════════════ WHY TARGETBANKR ═══════════════════ -->
+<section class="max-w-5xl mx-auto px-5 py-10">
+  <div class="text-center mb-10 reveal">
+    <div class="section-label mb-3">Why Targetbankr?</div>
+    <div class="gold-rule mb-5 mx-auto"></div>
+    <h2 style="font-family:'DM Serif Display',serif; font-size:clamp(1.5rem,4vw,2.1rem); color:#0B1F4A; letter-spacing:-0.02em;">
+      Built for the way students actually study
+    </h2>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 reveal">
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 text-center">
+      <div style="font-size:2rem; margin-bottom:12px;">📱</div>
+      <h4 style="font-family:'DM Serif Display',serif; font-size:1.05rem; color:#0B1F4A; margin-bottom:8px;">Mobile-First</h4>
+      <p style="font-size:0.82rem; color:#3d5a8a; line-height:1.65;">HTML tools work perfectly on any smartphone. Study on the go, even without WiFi.</p>
+    </div>
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 text-center">
+      <div style="font-size:2rem; margin-bottom:12px;">🎯</div>
+      <h4 style="font-family:'DM Serif Display',serif; font-size:1.05rem; color:#0B1F4A; margin-bottom:8px;">Exam-Pattern Aligned</h4>
+      <p style="font-size:0.82rem; color:#3d5a8a; line-height:1.65;">Every question maps to the official IBPS, SBI, or RBI syllabus. No irrelevant content.</p>
+    </div>
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 text-center">
+      <div style="font-size:2rem; margin-bottom:12px;">⚡</div>
+      <h4 style="font-family:'DM Serif Display',serif; font-size:1.05rem; color:#0B1F4A; margin-bottom:8px;">Instant Access</h4>
+      <p style="font-size:0.82rem; color:#3d5a8a; line-height:1.65;">Download link delivered to your email within minutes of payment. Start studying immediately.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+<section id="testimonials" class="max-w-5xl mx-auto px-5 py-10">
+  <div class="text-center mb-10 reveal">
+    <div class="section-label mb-3">Student Reviews</div>
+    <div class="gold-rule mb-5 mx-auto"></div>
+    <h2 style="font-family:'DM Serif Display',serif; font-size:clamp(1.5rem,4vw,2.1rem); color:#0B1F4A; letter-spacing:-0.02em;">
+      Real students, real results
+    </h2>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 reveal">
+    <div class="testi-card">
+      <div class="stars mb-3">★★★★★</div>
+      <p style="font-size:0.85rem; color:#0B1F4A; line-height:1.7; margin-bottom:16px;">"The QA HTML tool is incredibly well-organized. I improved my speed by 40% in just 3 weeks. Cleared."</p>
+      <div class="flex items-center gap-3">
+        <div class="avatar-ring">AR</div>
+        <div>
+          <div style="font-size:0.85rem; font-weight:600; color:#0B1F4A;">Arjun R.</div>
+          <div style="font-size:0.75rem; color:#3d5a8a;">student</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars mb-3">★★★★★</div>
+      <p style="font-size:0.85rem; color:#0B1F4A; line-height:1.7; margin-bottom:16px;">"The Banking Awareness PDF alone is worth 5x the price. Covered RBI policies in a structured way I hadn't found anywhere else."</p>
+      <div class="flex items-center gap-3">
+        <div class="avatar-ring">PS</div>
+        <div>
+          <div style="font-size:0.85rem; font-weight:600; color:#0B1F4A;">Priya S.</div>
+          <div style="font-size:0.75rem; color:#3d5a8a;">suggested</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars mb-3">★★★★★</div>
+      <p style="font-size:0.85rem; color:#0B1F4A; line-height:1.7; margin-bottom:16px;">"Bought the bundle and it was the best ₹799 I ever spent. The DI trainer especially is unmatched. Scored 48/60 in quant."</p>
+      <div class="flex items-center gap-3">
+        <div class="avatar-ring">KM</div>
+        <div>
+          <div style="font-size:0.85rem; font-weight:600; color:#0B1F4A;">Karan M.</div>
+          <div style="font-size:0.75rem; color:#3d5a8a;">best tool</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ GUARANTEE ═══════════════════ -->
+<section id="guarantee" class="max-w-5xl mx-auto px-5 py-10">
+  <div class="guarantee-strip px-8 py-10 text-center reveal">
+    <div style="font-size:2.5rem; margin-bottom:12px;">🛡️</div>
+    <h3 style="font-family:'DM Serif Display',serif; font-size:1.6rem; color:#fff; margin-bottom:10px;">Suggestion box</h3>
+    <p style="color:rgba(255,255,255,0.7); font-size:0.9rem; max-width:440px; margin:0 auto 24px; line-height:1.7;">
+      Not satisfied? Contact us on Telegram and suggest a new idea to have that as reality. Your feedback matters!!
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <div style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:10px; padding:10px 20px; color:rgba(255,255,255,0.8); font-size:0.82rem;">🔒 Secure Razorpay Payment</div>
+      <div style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:10px; padding:10px 20px; color:rgba(255,255,255,0.8); font-size:0.82rem;">📧 Instant Email Delivery</div>
+      <div style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:10px; padding:10px 20px; color:rgba(255,255,255,0.8); font-size:0.82rem;">♻️ Lifetime Access</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FAQ ═══════════════════ -->
+<section class="max-w-3xl mx-auto px-5 py-10">
+  <div class="text-center mb-10 reveal">
+    <div class="section-label mb-3">FAQ</div>
+    <div class="gold-rule mb-5 mx-auto"></div>
+    <h2 style="font-family:'DM Serif Display',serif; font-size:clamp(1.5rem,4vw,2rem); color:#0B1F4A; letter-spacing:-0.02em;">Common questions</h2>
+  </div>
+  <div class="space-y-3 reveal" id="faq">
+    <div class="faq-item bg-white border border-gray-100 rounded-xl overflow-hidden">
+      <button class="faq-q w-full text-left px-5 py-4 flex justify-between items-center" onclick="toggleFaq(this)">
+        <span style="font-weight:600; font-size:0.9rem; color:#0B1F4A;">How do I access the HTML tools after purchase?</span>
+        <span class="faq-icon" style="color:#C49A22; font-size:1.1rem; transition:transform 0.2s;">+</span>
+      </button>
+      <div class="faq-a" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease;">
+        <p style="padding:0 20px 16px; font-size:0.85rem; color:#3d5a8a; line-height:1.65;">After successful payment, you'll receive a download link via email within 5 minutes. The HTML files can be opened directly in any browser — no installation needed.</p>
+      </div>
+    </div>
+    <div class="faq-item bg-white border border-gray-100 rounded-xl overflow-hidden">
+      <button class="faq-q w-full text-left px-5 py-4 flex justify-between items-center" onclick="toggleFaq(this)">
+        <span style="font-weight:600; font-size:0.9rem; color:#0B1F4A;">Are these products updated for 2025 exams?</span>
+        <span class="faq-icon" style="color:#C49A22; font-size:1.1rem; transition:transform 0.2s;">+</span>
+      </button>
+      <div class="faq-a" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease;">
+        <p style="padding:0 20px 16px; font-size:0.85rem; color:#3d5a8a; line-height:1.65;">Yes. All PDF guides are updated up to March 2025. HTML tools are continuously updated and bundle buyers get free updates for 12 months.</p>
+      </div>
+    </div>
+    <div class="faq-item bg-white border border-gray-100 rounded-xl overflow-hidden">
+      <button class="faq-q w-full text-left px-5 py-4 flex justify-between items-center" onclick="toggleFaq(this)">
+        <span style="font-weight:600; font-size:0.9rem; color:#0B1F4A;">Is the payment gateway secure?</span>
+        <span class="faq-icon" style="color:#C49A22; font-size:1.1rem; transition:transform 0.2s;">+</span>
+      </button>
+      <div class="faq-a" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease;">
+        <p style="padding:0 20px 16px; font-size:0.85rem; color:#3d5a8a; line-height:1.65;">All payments are processed via Razorpay, India's most trusted payment gateway. UPI, cards, and net banking all accepted. We never store your card details.</p>
+      </div>
+    </div>
+    <div class="faq-item bg-white border border-gray-100 rounded-xl overflow-hidden">
+      <button class="faq-q w-full text-left px-5 py-4 flex justify-between items-center" onclick="toggleFaq(this)">
+        <span style="font-weight:600; font-size:0.9rem; color:#0B1F4A;">Can I use these on a mobile phone?</span>
+        <span class="faq-icon" style="color:#C49A22; font-size:1.1rem; transition:transform 0.2s;">+</span>
+      </button>
+      <div class="faq-a" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease;">
+        <p style="padding:0 20px 16px; font-size:0.85rem; color:#3d5a8a; line-height:1.65;">Absolutely. The HTML tools are fully mobile-optimized. PDFs can be read in any PDF viewer app (Adobe, Google PDF, etc.) on Android or iOS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FINAL CTA ═══════════════════ -->
+<section class="max-w-5xl mx-auto px-5 pb-16">
+  <div class="text-center py-12 px-6 bg-white border border-gray-100 rounded-2xl shadow-sm reveal">
+    <div style="font-size:2rem; margin-bottom:12px;">🚀</div>
+    <h3 style="font-family:'DM Serif Display',serif; font-size:clamp(1.4rem,4vw,2rem); color:#0B1F4A; margin-bottom:10px; letter-spacing:-0.02em;">Your exam date is getting closer.</h3>
+    <p style="color:#3d5a8a; font-size:0.92rem; max-width:400px; margin:0 auto 24px; line-height:1.7;">Start with the product best suited for your weak areas, or go all-in with the bundle.</p>
+    <a href="#products" class="btn-buy btn-buy-gold" style="width:auto; display:inline-block; padding:15px 40px; font-size:0.95rem;">Browse All Products ↑</a>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer class="bg-white px-5 py-10">
+  <div class="max-w-5xl mx-auto">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 mb-8">
+      <div>
+        <span style="font-family:'DM Serif Display',serif; font-size:1.3rem; color:#0B1F4A;">Target<span style="color:#C49A22;">Bankr</span></span>
+        <p style="font-size:0.78rem; color:#3d5a8a; margin-top:4px; max-width:220px; line-height:1.5;">India's trusted digital study resource for banking aspirants.</p>
+      </div>
+      <div class="flex flex-wrap gap-x-6 gap-y-3">
+        <a href="#products" class="footer-link">Products</a>
+        <a href="#testimonials" class="footer-link">Reviews</a>
+        <a href="refund.html" class="footer-link">Refund Policy</a>
+        <a href="mailto:subhamdahiya18plus1@gmail.com" class="footer-link">Contact Us</a>
+        <a href="terms.html" class="footer-link">Terms of Service</a>
+        <a href="privacy.html" class="footer-link">Privacy Policy</a>
+      </div>
+    </div>
+    <div style="border-top:1px solid #eae6de; padding-top:20px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px;">
+      <p style="font-size:0.75rem; color:#9ca3af;">© 2026 TargetBankr. All rights reserved. Digital products — no physical delivery.</p>
+      <div class="flex items-center gap-3">
+        <img src="https://img.icons8.com/color/24/rupee.png" alt="" style="width:18px; height:18px; opacity:0.5;" />
+        <span style="font-size:0.72rem; color:#9ca3af;">Payments secured by Razorpay</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══ Razorpay ═══ -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script>
+  // ─────────────────────────────────────────────────────────
+  // ⚙️  CONFIG — only change these two lines when needed
+  // ─────────────────────────────────────────────────────────
+  const GAS_URL = "https://script.google.com/macros/s/AKfycbxywRtSO6U8FyzWh9hAFOkjUF8j3uuEwB-8La9bzHGRRrrLkAS84seMmzt2x_6YIjF4/exec";
+  const RZP_KEY = "rzp_live_SisR5ciwqWpzmz";
+
+  // ─────────────────────────────────────────────────────────
+  // 📦  PRODUCTS JSON URL — update YOUR GitHub username & repo
+  //     Format: https://cdn.jsdelivr.net/gh/USERNAME/REPO@main/products.json
+  // ─────────────────────────────────────────────────────────
+  const PRODUCTS_URL = "https://cdn.jsdelivr.net/gh/Subhu18-papa/productforwebsite@main/products.json?v=1";
+
+  // ─────────────────────────────────────────────────────────
+  // 🎨  Card renderer
+  // ─────────────────────────────────────────────────────────
+  let allProducts = [];
+  let activeCategory = 'home';
+
+  function checkSvg(dark) {
+    const fill = dark ? '#DDB431' : '#1A5C3A';
+    const stroke = dark ? '#0B1F4A' : '#fff';
+    return `<svg width="14" height="14" fill="none" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="${fill}"/><path d="M5 8l2 2 4-4" stroke="${stroke}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  }
+
+  function buildCard(p) {
+    const isDark = p.theme === 'dark-red' || p.theme === 'dark-navy' || p.theme === 'dark-green';
+
+    // Card wrapper styles
+    let cardStyle = '';
+    let cardClass = 'product-card';
+    if (p.theme === 'dark-red')   { cardStyle = 'border-color:#4A0B0B; background:linear-gradient(145deg,#4A0B0B,#821616);'; }
+    if (p.theme === 'dark-navy')  { cardStyle = 'border-color:#C49A22; box-shadow:0 0 0 1px #C49A22; background:linear-gradient(145deg,#0B1F4A,#1a3260);'; }
+    if (p.theme === 'dark-green') { cardStyle = 'border-color:#1A5C3A; box-shadow:0 0 0 1px #1A5C3A; background:linear-gradient(145deg,#1A5C3A,#0d3d25);'; }
+    if (p.featured && !isDark)    { cardClass += ' featured'; }
+
+    // Badge
+    const badge = p.badge ? `<div class="badge-featured" ${p.theme === 'dark-navy' ? 'style="background:linear-gradient(135deg,#C49A22,#DDB431);"' : ''}>${p.badge}</div>` : '';
+
+    // Price display
+    const priceText = p.price === 0 ? 'Free' : `₹${p.price}`;
+    const priceColor = isDark ? 'color:#fff;' : '';
+    const origColor  = isDark ? 'color:rgba(255,255,255,0.4);' : '';
+    const offBg      = isDark ? 'background:rgba(196,154,34,0.2); color:#DDB431;' : '';
+
+    // Encode driveLink safely for inline onclick
+    const safeDriveLink = encodeURIComponent(p.driveLink || '');
+    const amountPaise   = Math.round(p.price * 100);
+
+    // Button
+    let btn = '';
+    if (p.status === 'coming_soon') {
+      btn = `<button class="btn-buy btn-coming-soon" disabled>🔒 Coming Soon</button>`;
+    } else if (p.status === 'free' && p.externalLink) {
+      btn = `<a href="${p.externalLink}" target="_blank" rel="noopener" class="btn-buy btn-buy-primary">Get Free — ₹00</a>`;
+    } else {
+      const btnClass = isDark ? 'btn-buy-gold' : 'btn-buy-primary';
+      btn = `<button class="btn-buy ${btnClass}" onclick="openCheckout('${safeDriveLink}','${p.name.replace(/'/g,"\\'")}',${amountPaise})">Buy Now — ₹${p.price}</button>`;
+    }
+
+    // Features
+    const features = p.features.map(f => `
+      <li class="card-feature" ${isDark ? 'style="color:rgba(255,255,255,0.75);"' : ''}>
+        ${checkSvg(isDark)} ${f}
+      </li>`).join('');
+
+    // Name & description colors
+    const nameColor  = isDark ? 'color:#fff;'                   : 'color:#0B1F4A;';
+    const descColor  = isDark ? 'color:rgba(255,255,255,0.65);' : 'color:#3d5a8a;';
+
+    return `
+    <div class="${cardClass}" data-category="${p.category}" style="${cardStyle}">
+      ${badge}
+      <div class="p-6 flex flex-col flex-1">
+        <div class="card-icon-wrap mb-4" style="background:${p.iconBg};">${p.icon}</div>
+        <span class="tag-pill mb-3" style="background:${p.tagBg}; color:${p.tagColor};">${p.tag}</span>
+        <h3 style="font-family:'DM Serif Display',serif; font-size:1.18rem; ${nameColor} margin-bottom:8px; line-height:1.3;">${p.name}</h3>
+        <p style="font-size:0.82rem; ${descColor} line-height:1.65; margin-bottom:16px;">${p.description}</p>
+        <ul class="space-y-2 mb-6 flex-1">${features}</ul>
+        <div class="flex items-center gap-3 mb-5">
+          <div class="price-main" style="${priceColor}">${priceText}</div>
+          <div class="price-orig" style="${origColor}">₹${p.originalPrice}</div>
+          <div class="price-off" style="${offBg}">${p.discount}</div>
+        </div>
+        ${btn}
+      </div>
+    </div>`;
+  }
+
+  function renderProducts(category) {
+    activeCategory = category;
+    const grid = document.getElementById('product-grid');
+    const filtered = allProducts.filter(p => p.category === category);
+    if (filtered.length === 0) {
+      grid.innerHTML = `<div style="grid-column:1/-1; text-align:center; padding:40px; color:#3d5a8a; font-size:0.9rem;">No products in this category yet. Check back soon!</div>`;
+    } else {
+      grid.innerHTML = filtered.map(buildCard).join('');
+    }
+  }
+
+  function filterProducts(category, el) {
+    document.querySelectorAll('.filter-tab').forEach(btn => btn.classList.remove('active'));
+    el.classList.add('active');
+    renderProducts(category);
+  }
+
+  // ─────────────────────────────────────────────────────────
+  // 🚀  Fetch products.json from jsDelivr (GitHub CDN)
+  // ─────────────────────────────────────────────────────────
+  async function loadProducts() {
+    try {
+      const res = await fetch(PRODUCTS_URL);
+      if (!res.ok) throw new Error('Network error');
+      allProducts = await res.json();
+      renderProducts('home');
+    } catch (err) {
+      console.error('Failed to load products:', err);
+      document.getElementById('product-grid').innerHTML = '';
+      document.getElementById('load-error').style.display = 'block';
+    }
+  }
+
+  loadProducts();
+
+  // ─────────────────────────────────────────────────────────
+  // 💳  Razorpay checkout — UNCHANGED from your original
+  // ─────────────────────────────────────────────────────────
+  var _customerEmail = "";
+  var _customerName  = "";
+
+  function openCheckout(encodedDriveLink, productName, amountPaise) {
+    var driveLink = decodeURIComponent(encodedDriveLink);
+    var options = {
+      key         : RZP_KEY,
+      amount      : amountPaise,
+      currency    : "INR",
+      name        : "TargetBankr",
+      description : productName,
+      theme       : { color: "#1A5C3A" },
+      prefill     : { name: "", email: "", contact: "" },
+      notes       : { product_name: productName },
+      handler: function(response) {
+        var email = _customerEmail || "";
+        var name  = _customerName  || "Valued Customer";
+        if (!email) { email = prompt("Please enter your email to receive the product:"); }
+        if (email) {
+          triggerEmail(email, name, driveLink, productName, response.razorpay_payment_id, amountPaise);
+          showSuccessMessage(productName, email);
+        }
+      },
+      modal: { ondismiss: function() {} }
+    };
+    var rzp = new Razorpay(options);
+    rzp.on('payment.submit', function(data) {
+      _customerEmail = data.email   || "";
+      _customerName  = data.contact || "";
+    });
+    rzp.open();
+  }
+
+  function triggerEmail(email, name, driveLink, productName, paymentId, amountPaise) {
+    var params = new URLSearchParams({
+      email, name, driveLink, productName, paymentId,
+      amount: (amountPaise / 100).toFixed(2)
+    });
+    fetch(GAS_URL + "?" + params.toString(), { method: "GET" })
+      .then(r => r.json())
+      .then(d => console.log("GAS response:", d))
+      .catch(e => console.log("GAS error:", e));
+  }
+
+  function showSuccessMessage(productName, email) {
+    var div = document.createElement("div");
+    div.style.cssText = "position:fixed;top:24px;left:50%;transform:translateX(-50%);background:#1A5C3A;color:#fff;padding:16px 28px;border-radius:10px;font-size:15px;font-weight:600;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,0.2);text-align:center;";
+    div.innerHTML = "Payment successful!<br><span style='font-size:13px;font-weight:400;opacity:0.9;'>"+productName+" is being sent to "+email+"</span>";
+    document.body.appendChild(div);
+    setTimeout(() => div.remove(), 6000);
+  }
+
+  // ─────────────────────────────────────────────────────────
+  // 🔭  Scroll reveal & FAQ — UNCHANGED
+  // ─────────────────────────────────────────────────────────
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        Array.from(e.target.children).forEach((child, i) => { child.style.transitionDelay = `${i * 0.07}s`; });
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  function toggleFaq(btn) {
+    const item   = btn.closest('.faq-item');
+    const ans    = item.querySelector('.faq-a');
+    const icon   = btn.querySelector('.faq-icon');
+    const isOpen = ans.style.maxHeight !== '0px' && ans.style.maxHeight !== '';
+    document.querySelectorAll('.faq-a').forEach(a => a.style.maxHeight = '0');
+    document.querySelectorAll('.faq-icon').forEach(i => { i.textContent = '+'; i.style.transform = ''; });
+    if (!isOpen) { ans.style.maxHeight = ans.scrollHeight + 'px'; icon.textContent = '−'; }
+  }
+</script>
+</body>
+</html>
