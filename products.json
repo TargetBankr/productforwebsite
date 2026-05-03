@@ -21,7 +21,7 @@
     "tagBg": "#EEF2FB", "tagColor": "#0B1F4A", "iconBg": "#EEF2FB",
     "description": "Comprehensive coverage of banking terminology, RBI policies, schemes & current affairs — all in one over 1000+ flashcards.",
     "features": ["Chapter-wise MCQ practice sets","Updated up to March 2025","Instant Password provider"],
-    "price": 19, "originalPrice": 39, "discount": "50% OFF",
+    "price": 19, "originalPrice": 40, "discount": "50% OFF",
     "driveLink": "https://drive.google.com/file/d/1gdTvk71nLg1rGjBiBhE3lis8cxO58V0x",
     "category": "home", "featured": false, "badge": null, "status": "live", "theme": "default"
   },
