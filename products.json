@@ -32,7 +32,7 @@
     "tag": "HTML Interactive Tool",
     "tagBg": "#FDF6DC", "tagColor": "#C49A22", "iconBg": "#FDF6DC",
     "description": "Puzzles, seating arrangements, syllogisms, and coded inequalities — with visual solutions.",
-    "features": ["500+ graded questions","Difficulty-based filters","Progress tracker built in"],
+    "features": ["450+ graded questions","Difficulty-based filters","Progress tracker built in"],
     "price": 0, "originalPrice": 99, "discount": "100% OFF",
     "driveLink": null,
     "externalLink": "https://reasoningbytargetbankr.netlify.app/",
