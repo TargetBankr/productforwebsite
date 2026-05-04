@@ -9,7 +9,7 @@
     "iconBg": "#e6f4ec",
     "description": "Unlimited timed problems across simplification, DI, number series & more. Works offline in any browser.",
     "features": ["Smart timer with auto-scoring","Practice problems over speed maths","IBPS PO & SBI pattern aligned"],
-    "price": 29, "originalPrice": 69, "discount": "58% OFF",
+    "price": 29, "originalPrice": 70, "discount": "58% OFF",
     "driveLink": "https://drive.google.com/uc?id=19_K0dyDPLBVLASWEviCeLtx4HLKidUUy",
     "category": "home", "featured": true, "badge": "⭐ Best Seller", "status": "live", "theme": "default"
   },
