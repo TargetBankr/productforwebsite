@@ -23,7 +23,7 @@
     "features": ["Chapter-wise MCQ practice sets","Updated up to March 2025","Instant Password provider"],
     "price": 19, "originalPrice": 40, "discount": "50% OFF",
     "driveLink": "https://drive.google.com/file/d/1gdTvk71nLg1rGjBiBhE3lis8cxO58V0x",
-    "category": "home", "featured": false, "badge": null, "status": "live", "theme": "default"
+    "category": "home", "featured": false, "badge": "💯 Free", "status": "live", "theme": "default"
   },
   {
     "id": "reasoning-kit",
