@@ -181,5 +181,37 @@
     "price": 69, "originalPrice": 140, "discount": "50% OFF",
     "driveLink": "https://drive.google.com/uc?id=1SNy2MkzQb0Gwjgi2w-ZQ1wNm8TckHIwvizwafZmMtAE",
     "category": "special", "featured": false, "badge": null, "status": "coming_soon", "theme": "dark-green"
+  },
+  {
+  "id": "up-police-constable-question-bank-2026",
+  "name": "UP Police Constable All Subjects Question Bank 2026",
+  "icon": "📘",
+
+  "tag": "Question Bank PDF",
+  "tagBg": "#EEF2FB",
+  "tagColor": "#0B1F4A",
+  "iconBg": "#EEF2FB",
+
+  "description": "Comprehensive question bank covering all subjects for UP Police Constable 2026 exam with exam-level practice.",
+
+  "features": [
+    "1000+ exam-level questions with latest pattern",
+    "Covers Reasoning, GK, Maths & Hindi in one PDF",
+    "Designed for quick revision + mock practice"
+  ],
+
+  "price": 49,
+  "originalPrice": 99,
+  "discount": "50% OFF",
+
+  "driveLink": "https://drive.google.com/uc?id=1tkCFsQBmWJ0duXYZjDp4wFMN6dFal3ui",
+
+  "categories": ["home", "police"],
+
+  "featured": true,
+  "badge": "🔥 Best Seller",
+
+  "status": "live",
+  "theme": "default"
   }
 ]
