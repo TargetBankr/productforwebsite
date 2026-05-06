@@ -213,7 +213,7 @@
 
   "status": "live",
   "theme": "default"
-  }
+  },
   {
   "id": "up-constable-full-set",
   "name": "UP Police Constable Full Bundle",
@@ -224,24 +224,24 @@
   "tagColor": "#0B1F4A",
   "iconBg": "#EEF2FB",
 
-  "description": "A bundle with an E-book (Pdf) with 5 mock papers.",
+  "description": "Complete UP Police Constable preparation bundle including a detailed eBook (PDF) and 5 full-length mock tests.",
 
   "features": [
-    "Feature one — 875+ Question with explanation in Ebook",
-    "Feature two —Full coverage of all the subjects ",
-    "Feature three — Full exam Style Ready to give Mocks"
+    "875+ questions with detailed explanations in the eBook",
+    "Full coverage of all subjects as per latest exam pattern",
+    "5 full-length exam-style mock tests for real practice"
   ],
 
   "price": 79,
   "originalPrice": 200,
   "discount": "61% OFF",
 
-  "driveLink": "https://drive.google.com/uc?id=1RyhHxdmo2m5oVCd0rfY65tHg_6qMqAfY",
+  "driveLink": "https://drive.google.com/file/d/1RyhHxdmo2m5oVCd0rfY65tHg_6qMqAfY/view",
 
-  "categories": ["home", "Police","Special Package"],
+  "categories": ["Home", "Police", "Special Package"],
 
   "featured": true,
-  "badge": "1380+ Questions with Answes",
+  "badge": "875+ Questions with Answers",
 
   "status": "live",
   "theme": "default"
