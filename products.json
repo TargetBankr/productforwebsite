@@ -10,7 +10,7 @@
     "description": "Unlimited timed problems across simplification, DI, number series & more. Works offline in any browser.",
     "features": ["Smart timer with auto-scoring","Practice problems over speed maths","IBPS PO & SBI pattern aligned"],
     "price": 39, "originalPrice": 80, "discount": "51% OFF",
-    "driveLink": "https://drive.google.com/uc?id=19_K0dyDPLBVLASWEviCeLtx4HLKidUUy",
+    "driveLink": "https://github.com/TargetBankr/app-Tc-101/releases/download/v1.0/base.apk",
     "category": "home", "featured": true, "badge": "⭐ Best Seller", "status": "live", "theme": "default"
   },
   {
