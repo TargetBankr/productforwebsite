@@ -421,9 +421,9 @@
       "name": "UP Police Constable Mock Bundle",
       "icon": "📄",
       "tag": "Full Mock Bundle",
-      "tagBg": "rgba(255,69,0,.1)",
-      "tagColor": "var(--or3)",
-      "iconBg": "rgba(255,69,0,.1)",
+      "tagBg": "#EEF2FB",
+      "tagColor": "#0B1F4A",
+      "iconBg": "#EEF2FB",
       "description": "Complete UP Police Constable preparation bundle including 5 Mock papers .",
       "features": [
         "750+ questions with detailed explanations in the mock paper",
@@ -433,18 +433,15 @@
       "price": 39,
       "originalPrice": 80,
       "discount": "51% OFF",
-      "status": "free",
-      "theme": "default",
-      "badge": "750+ Questions with Answers",
       "driveLink": "https://drive.google.com/file/d/1TBZcGL4dm5wrBDmrZ43ixef5AhH0dZbZ/view?usp=drivesdk",
-      "demoLink": "https://drive.google.com/file/d/1TBZcGL4dm5wrBDmrZ43ixef5AhH0dZbZ/view?usp=drivesdk",
-      "externalLink": null,
-      "bannerUrl": "https://drive.google.com/file/d/1HZjWd0042K3onW-BdjNvWX6uJ7_Iaweg/view?usp=drivesdk",
       "categories": [
         "home",
         "police"
       ],
-      "featured": true
+      "featured": true,
+      "badge": "750+ Questions with Answers",
+      "status": "live",
+      "theme": "default"
     }
   ],
   "categories": [
@@ -463,6 +460,10 @@
     {
       "id": "english",
       "label": "📝 English"
+    },
+    {
+      "id": "ga",
+      "label": "🌐 Gen. Awareness"
     },
     {
       "id": "banking",
@@ -485,8 +486,8 @@
       "label": "⭐ Special"
     },
     {
-      "id": "university",
-      "label": "🎓 University"
+      "id": "uni",
+      "label": "university"
     }
   ]
 }
