@@ -1,281 +1,492 @@
-[
-  {
-    "id": "quant-hub",
-    "name": "Quantitative Aptitude Practice Hub",
-    "icon": "🔢",
-    "tag": "HTML Interactive Tool",
-    "tagBg": "#e6f4ec",
-    "tagColor": "#1A5C3A",
-    "iconBg": "#e6f4ec",
-    "description": "Unlimited timed problems across simplification, DI, number series & more. Works offline in any browser.",
-    "features": ["Smart timer with auto-scoring","Practice problems over speed maths","IBPS PO & SBI pattern aligned"],
-    "price": 39, "originalPrice": 80, "discount": "51% OFF",
-    "driveLink": "https://github.com/TargetBankr/app-Tc-101/releases/download/v1.0/base.apk",
-    "category": "home", "featured": true, "badge": "⭐ Best Seller", "status": "live", "theme": "default"
-  },
-  {
-    "id": "banking-flashcards",
-    "name": "Banking Awareness Flashcards 2025–26",
-    "icon": "📘",
-    "tag": "PDF Study Guide",
-    "tagBg": "#EEF2FB", "tagColor": "#0B1F4A", "iconBg": "#EEF2FB",
-    "description": "Comprehensive coverage of banking terminology, RBI policies, schemes & current affairs — all in one over 1000+ flashcards.",
-    "features": ["Chapter-wise MCQ practice sets","Updated up to March 2025","Instant Password provider"],
-    "price": 19, "originalPrice": 40, "discount": "50% OFF",
-    "driveLink": "https://drive.google.com/file/d/1gdTvk71nLg1rGjBiBhE3lis8cxO58V0x",
-    "category": "home", "featured": false, "badge": "💯 Sales done", "status": "live", "theme": "default"
-  },
-  {
-    "id": "reasoning-kit",
-    "name": "Reasoning Ability Master Kit",
-    "icon": "🧠",
-    "tag": "HTML Interactive Tool",
-    "tagBg": "#FDF6DC", "tagColor": "#C49A22", "iconBg": "#FDF6DC",
-    "description": "Puzzles, seating arrangements, syllogisms, and coded inequalities — with visual solutions.",
-    "features": ["450+ graded questions","Difficulty-based filters","Progress tracker built in"],
-    "price": 0, "originalPrice": 99, "discount": "100% OFF",
-    "driveLink": null,
-    "externalLink": "https://reasoningbytargetbankr.netlify.app/",
-    "category": "home", "featured": false, "badge": "FREE", "status": "free", "theme": "default"
-  },
-  {
-    "id": "vocab-booster",
-    "name": "English Vocabulary Booster",
-    "icon": "📝",
-    "tag": "Tool",
-    "tagBg": "#e6f4ec", "tagColor": "#1A5C3A", "iconBg": "#e6f4ec",
-    "description": "Store highest frequency vocabulary just in seconds and revise on daily basis to guarantee success.",
-    "features": ["2 full-fledged PDFs for vocab","350+ solved vocab","SBI PO Mains focused"],
-    "price": 19, "originalPrice": 39, "discount": "50% OFF",
-    "driveLink": "https://drive.google.com/uc?id=12A38mhefhQ79JNTO3okoZgNTFpJrtjjB-XVObr0lNy8",
-    "category": "home", "featured": false, "badge": null, "status": "live", "theme": "default"
-  },
-  {
-    "id": "pdf-splitter",
-    "name": "PDF Splitter and Study Tool",
-    "icon": "📊",
-    "tag": "HTML Interactive Tool",
-    "tagBg": "#EEF2FB", "tagColor": "#0B1F4A", "iconBg": "#EEF2FB",
-    "description": "PDF Splitter And Study Tool gives you the full-fledged power to manage your bulky PDFs into smaller chunks.",
-    "features": ["Supports heavy PDFs","Speed booster","The exam cracker tool for theoretical subjects"],
-    "price": 29, "originalPrice": 59, "discount": "50% OFF",
-    "driveLink": "https://drive.google.com/uc?id=1m9BhcYC1kil2Z5gymFTpoUDvTkzft7OC_v0NuPWoRec",
-    "category": "home", "featured": false, "badge": null, "status": "live", "theme": "default"
-  },
-  {
-    "id": "bundle",
-    "name": "All-in-One Exam Preparation Pack",
-    "icon": "🏆",
-    "tag": "Complete Bundle",
-    "tagBg": "rgba(196,154,34,0.15)", "tagColor": "#DDB431", "iconBg": "rgba(196,154,34,0.15)",
-    "description": "Every tool + every PDF. The complete arsenal for IBPS exams, SBI exams, and RBI exams.",
-    "features": ["All 5 tools + guides included","Free Priority Access to Telegram Group","Priority email support"],
-    "price": 99, "originalPrice": 149, "discount": "33% OFF",
-    "driveLink": "https://drive.google.com/uc?id=1SNy2MkzQb0Gwjgi2w-ZQ1wNm8TckHIwvizwafZmMtAE",
-    "category": "home", "featured": false, "badge": null, "status": "live", "theme": "dark-red"
-  },
-  {
-    "id": "puzzle-kit",
-    "name": "Puzzle & Seating Arrangement Pro Kit",
-    "icon": "🧩",
-    "tag": "HTML Interactive Tool",
-    "tagBg": "#FDF6DC", "tagColor": "#C49A22", "iconBg": "#FDF6DC",
-    "description": "Advanced puzzles, seating arrangements, blood relations and direction sense — timed and auto-scored.",
-    "features": ["350+ high-difficulty puzzles","Visual step-by-step solutions","IBPS Clerk ,PO pattern aligned"],
-    "price": 29, "originalPrice": 69, "discount": "58% OFF",
-    "driveLink": null,
-    "category": "reasoning", "featured": true, "badge": "🔥 New", "status": "coming_soon", "theme": "default"
-  },
-  {
-    "id": "logical-reasoning-pdf",
-    "name": "Logical Reasoning PDF Workbook",
-    "icon": "📋",
-    "tag": "PDF Study Guide",
-    "tagBg": "#EEF2FB", "tagColor": "#0B1F4A", "iconBg": "#EEF2FB",
-    "description": "Syllogisms, coded inequalities, input-output and machine input — all solved with shortcut methods.",
-    "features": ["200+ practice questions","Trick-based shortcut methods","SBI Clerk & IBPS RRB ready"],
-    "price": 19, "originalPrice": 49, "discount": "60% OFF",
-    "driveLink": null,
-    "category": "reasoning", "featured": false, "badge": null, "status": "coming_soon", "theme": "default"
-  },
-  {
-    "id": "di-toolkit",
-    "name": "Data Interpretation Mastery Toolkit",
-    "icon": "📊",
-    "tag": "HTML Interactive Tool",
-    "tagBg": "#e6f4ec", "tagColor": "#1A5C3A", "iconBg": "#e6f4ec",
-    "description": "Bar charts, pie charts, tables and line graphs — the toughest DI sets with auto-scoring and timers.",
-    "features": ["100+ DI sets across all formats","Difficulty: easy to SBI Mains level","Works offline on mobile"],
-    "price": 29, "originalPrice": 69, "discount": "58% OFF",
-    "driveLink": null,
-    "category": "quant", "featured": true, "badge": "🔥 New", "status": "coming_soon", "theme": "default"
-  },
-  {
-    "id": "arithmetic-pdf",
-    "name": "Arithmetic & Number Series Shortcuts PDF",
-    "icon": "📐",
-    "tag": "PDF Study Guide",
-    "tagBg": "#FDF6DC", "tagColor": "#C49A22", "iconBg": "#FDF6DC",
-    "description": "Speed maths tricks, percentage shortcuts, number series patterns — all in one formula-packed PDF.",
-    "features": ["150+ shortcut formulas","Solved examples for each trick","Prelims & Mains both covered"],
-    "price": 19, "originalPrice": 49, "discount": "60% OFF",
-    "driveLink": null,
-    "category": "quant", "featured": false, "badge": null, "status": "coming_soon", "theme": "default"
-  },
-  {
-    "id": "rc-hub",
-    "name": "Reading Comprehension Practice Hub",
-    "icon": "📖",
-    "tag": "HTML Interactive Tool",
-    "tagBg": "#e6f4ec", "tagColor": "#1A5C3A", "iconBg": "#e6f4ec",
-    "description": "Banking-themed RC passages with timed practice, answer explanations and score tracking.",
-    "features": ["50+ RC passages, varied difficulty","Inference & vocab-in-context Q&A","SBI PO Mains & IBPS PO ready"],
-    "price": 29, "originalPrice": 69, "discount": "58% OFF",
-    "driveLink": null,
-    "category": "english", "featured": true, "badge": "🔥 New", "status": "coming_soon", "theme": "default"
-  },
-  {
-    "id": "current-affairs",
-    "name": "Current Affairs Monthly Digest",
-    "icon": "📅",
-    "tag": "PDF Study Guide",
-    "tagBg": "#FDF6DC", "tagColor": "#C49A22", "iconBg": "#FDF6DC",
-    "description": "Compact monthly digest of banking, economy and national current affairs — exactly what exams ask.",
-    "features": ["Banking & economy focused","MCQ format with answers","Updated monthly for 2025–26"],
-    "price": 19, "originalPrice": 49, "discount": "60% OFF",
-    "driveLink": null,
-    "category": "ga", "featured": false, "badge": null, "status": "coming_soon", "theme": "default"
-  },
-  {
-    "id": "static-gk",
-    "name": "Static GK Banking Quick Reference",
-    "icon": "🏦",
-    "tag": "PDF Study Guide",
-    "tagBg": "#e6f4ec", "tagColor": "#1A5C3A", "iconBg": "#e6f4ec",
-    "description": "HQs of banks, taglines, RBI governors, schemes and financial bodies — one compact cheat sheet.",
-    "features": ["All major bank HQs & taglines","Government schemes one-liners","Last-minute revision ready"],
-    "price": 15, "originalPrice": 39, "discount": "62% OFF",
-    "driveLink": null,
-    "category": "ga", "featured": false, "badge": null, "status": "coming_soon", "theme": "default"
-  },
-  {
-    "id": "ibps-pack",
-    "name": "IBPS PO Premium Prep Pack",
-    "icon": "🎯",
-    "tag": "Special Package",
-    "tagBg": "rgba(196,154,34,0.15)", "tagColor": "#DDB431", "iconBg": "rgba(196,154,34,0.15)",
-    "description": "Reasoning + Quant + English tools combined into one power pack. Built for IBPS PO Prelims & Mains.",
-    "features": ["3 subject tools in one package","50% cheaper than buying separately","Telegram support included"],
-    "price": 59, "originalPrice": 120, "discount": "50% OFF",
-    "driveLink": null,
-    "category": "special", "featured": true, "badge": "⭐ Best Value", "status": "coming_soon", "theme": "dark-navy"
-  },
-  {
-    "id": "sbi-bundle",
-    "name": "SBI Clerk All-Subject Bundle",
-    "icon": "🏆",
-    "tag": "Special Package",
-    "tagBg": "rgba(196,154,34,0.15)", "tagColor": "#DDB431", "iconBg": "rgba(196,154,34,0.15)",
-    "description": "Complete SBI Clerk Prelims package — GA + English + Quant PDFs plus the interactive HTML tools.",
-    "features": ["All subjects for SBI Clerk","Best value bundle available","Priority email support"],
-    "price": 69, "originalPrice": 140, "discount": "50% OFF",
-    "driveLink": "https://drive.google.com/uc?id=1SNy2MkzQb0Gwjgi2w-ZQ1wNm8TckHIwvizwafZmMtAE",
-    "category": "special", "featured": false, "badge": null, "status": "coming_soon", "theme": "dark-green"
-  },
-  {
-  "id": "up-police-constable-question-bank-2026",
-  "name": "UP Police Constable All Subjects Question Bank 2026",
-  "icon": "📘",
-
-  "tag": "Question Bank PDF",
-  "tagBg": "#EEF2FB",
-  "tagColor": "#0B1F4A",
-  "iconBg": "#EEF2FB",
-
-  "description": "Comprehensive question bank covering all subjects for UP Police Constable 2026 exam with exam-level practice.",
-
-  "features": [
-    "1000+ exam-level questions with latest pattern",
-    "Covers Reasoning, GK, Maths & Hindi in one PDF",
-    "Designed for quick revision + mock practice"
+{
+  "products": [
+    {
+      "id": "quant-hub",
+      "name": "Quantitative Aptitude Practice Hub",
+      "icon": "🔢",
+      "tag": "HTML Interactive Tool",
+      "tagBg": "#e6f4ec",
+      "tagColor": "#1A5C3A",
+      "iconBg": "#e6f4ec",
+      "description": "Unlimited timed problems across simplification, DI, number series & more. Works offline in any browser.",
+      "features": [
+        "Smart timer with auto-scoring",
+        "Practice problems over speed maths",
+        "IBPS PO & SBI pattern aligned"
+      ],
+      "price": 39,
+      "originalPrice": 80,
+      "discount": "51% OFF",
+      "driveLink": "https://github.com/TargetBankr/app-Tc-101/releases/download/v1.0/base.apk",
+      "category": "home",
+      "featured": true,
+      "badge": "⭐ Best Seller",
+      "status": "live",
+      "theme": "default"
+    },
+    {
+      "id": "banking-flashcards",
+      "name": "Banking Awareness Flashcards 2025–26",
+      "icon": "📘",
+      "tag": "PDF Study Guide",
+      "tagBg": "#EEF2FB",
+      "tagColor": "#0B1F4A",
+      "iconBg": "#EEF2FB",
+      "description": "Comprehensive coverage of banking terminology, RBI policies, schemes & current affairs — all in one over 1000+ flashcards.",
+      "features": [
+        "Chapter-wise MCQ practice sets",
+        "Updated up to March 2025",
+        "Instant Password provider"
+      ],
+      "price": 19,
+      "originalPrice": 40,
+      "discount": "50% OFF",
+      "driveLink": "https://drive.google.com/file/d/1gdTvk71nLg1rGjBiBhE3lis8cxO58V0x",
+      "category": "home",
+      "featured": false,
+      "badge": "💯 Sales done",
+      "status": "live",
+      "theme": "default"
+    },
+    {
+      "id": "reasoning-kit",
+      "name": "Reasoning Ability Master Kit",
+      "icon": "🧠",
+      "tag": "HTML Interactive Tool",
+      "tagBg": "#FDF6DC",
+      "tagColor": "#C49A22",
+      "iconBg": "#FDF6DC",
+      "description": "Puzzles, seating arrangements, syllogisms, and coded inequalities — with visual solutions.",
+      "features": [
+        "450+ graded questions",
+        "Difficulty-based filters",
+        "Progress tracker built in"
+      ],
+      "price": 0,
+      "originalPrice": 99,
+      "discount": "100% OFF",
+      "driveLink": null,
+      "externalLink": "https://reasoningbytargetbankr.netlify.app/",
+      "category": "home",
+      "featured": false,
+      "badge": "FREE",
+      "status": "free",
+      "theme": "default"
+    },
+    {
+      "id": "vocab-booster",
+      "name": "English Vocabulary Booster",
+      "icon": "📝",
+      "tag": "Tool",
+      "tagBg": "#e6f4ec",
+      "tagColor": "#1A5C3A",
+      "iconBg": "#e6f4ec",
+      "description": "Store highest frequency vocabulary just in seconds and revise on daily basis to guarantee success.",
+      "features": [
+        "2 full-fledged PDFs for vocab",
+        "350+ solved vocab",
+        "SBI PO Mains focused"
+      ],
+      "price": 19,
+      "originalPrice": 39,
+      "discount": "50% OFF",
+      "driveLink": "https://drive.google.com/uc?id=12A38mhefhQ79JNTO3okoZgNTFpJrtjjB-XVObr0lNy8",
+      "category": "home",
+      "featured": false,
+      "badge": null,
+      "status": "live",
+      "theme": "default"
+    },
+    {
+      "id": "pdf-splitter",
+      "name": "PDF Splitter and Study Tool",
+      "icon": "📊",
+      "tag": "HTML Interactive Tool",
+      "tagBg": "#EEF2FB",
+      "tagColor": "#0B1F4A",
+      "iconBg": "#EEF2FB",
+      "description": "PDF Splitter And Study Tool gives you the full-fledged power to manage your bulky PDFs into smaller chunks.",
+      "features": [
+        "Supports heavy PDFs",
+        "Speed booster",
+        "The exam cracker tool for theoretical subjects"
+      ],
+      "price": 29,
+      "originalPrice": 59,
+      "discount": "50% OFF",
+      "driveLink": "https://drive.google.com/uc?id=1m9BhcYC1kil2Z5gymFTpoUDvTkzft7OC_v0NuPWoRec",
+      "category": "home",
+      "featured": false,
+      "badge": null,
+      "status": "live",
+      "theme": "default"
+    },
+    {
+      "id": "bundle",
+      "name": "All-in-One Exam Preparation Pack",
+      "icon": "🏆",
+      "tag": "Complete Bundle",
+      "tagBg": "rgba(196,154,34,0.15)",
+      "tagColor": "#DDB431",
+      "iconBg": "rgba(196,154,34,0.15)",
+      "description": "Every tool + every PDF. The complete arsenal for IBPS exams, SBI exams, and RBI exams.",
+      "features": [
+        "All 5 tools + guides included",
+        "Free Priority Access to Telegram Group",
+        "Priority email support"
+      ],
+      "price": 99,
+      "originalPrice": 149,
+      "discount": "33% OFF",
+      "driveLink": "https://drive.google.com/uc?id=1SNy2MkzQb0Gwjgi2w-ZQ1wNm8TckHIwvizwafZmMtAE",
+      "category": "home",
+      "featured": false,
+      "badge": null,
+      "status": "live",
+      "theme": "dark-red"
+    },
+    {
+      "id": "puzzle-kit",
+      "name": "Puzzle & Seating Arrangement Pro Kit",
+      "icon": "🧩",
+      "tag": "HTML Interactive Tool",
+      "tagBg": "#FDF6DC",
+      "tagColor": "#C49A22",
+      "iconBg": "#FDF6DC",
+      "description": "Advanced puzzles, seating arrangements, blood relations and direction sense — timed and auto-scored.",
+      "features": [
+        "350+ high-difficulty puzzles",
+        "Visual step-by-step solutions",
+        "IBPS Clerk ,PO pattern aligned"
+      ],
+      "price": 29,
+      "originalPrice": 69,
+      "discount": "58% OFF",
+      "driveLink": null,
+      "category": "reasoning",
+      "featured": true,
+      "badge": "🔥 New",
+      "status": "coming_soon",
+      "theme": "default"
+    },
+    {
+      "id": "logical-reasoning-pdf",
+      "name": "Logical Reasoning PDF Workbook",
+      "icon": "📋",
+      "tag": "PDF Study Guide",
+      "tagBg": "#EEF2FB",
+      "tagColor": "#0B1F4A",
+      "iconBg": "#EEF2FB",
+      "description": "Syllogisms, coded inequalities, input-output and machine input — all solved with shortcut methods.",
+      "features": [
+        "200+ practice questions",
+        "Trick-based shortcut methods",
+        "SBI Clerk & IBPS RRB ready"
+      ],
+      "price": 19,
+      "originalPrice": 49,
+      "discount": "60% OFF",
+      "driveLink": null,
+      "category": "reasoning",
+      "featured": false,
+      "badge": null,
+      "status": "coming_soon",
+      "theme": "default"
+    },
+    {
+      "id": "di-toolkit",
+      "name": "Data Interpretation Mastery Toolkit",
+      "icon": "📊",
+      "tag": "HTML Interactive Tool",
+      "tagBg": "#e6f4ec",
+      "tagColor": "#1A5C3A",
+      "iconBg": "#e6f4ec",
+      "description": "Bar charts, pie charts, tables and line graphs — the toughest DI sets with auto-scoring and timers.",
+      "features": [
+        "100+ DI sets across all formats",
+        "Difficulty: easy to SBI Mains level",
+        "Works offline on mobile"
+      ],
+      "price": 29,
+      "originalPrice": 69,
+      "discount": "58% OFF",
+      "driveLink": null,
+      "category": "quant",
+      "featured": true,
+      "badge": "🔥 New",
+      "status": "coming_soon",
+      "theme": "default"
+    },
+    {
+      "id": "arithmetic-pdf",
+      "name": "Arithmetic & Number Series Shortcuts PDF",
+      "icon": "📐",
+      "tag": "PDF Study Guide",
+      "tagBg": "#FDF6DC",
+      "tagColor": "#C49A22",
+      "iconBg": "#FDF6DC",
+      "description": "Speed maths tricks, percentage shortcuts, number series patterns — all in one formula-packed PDF.",
+      "features": [
+        "150+ shortcut formulas",
+        "Solved examples for each trick",
+        "Prelims & Mains both covered"
+      ],
+      "price": 19,
+      "originalPrice": 49,
+      "discount": "60% OFF",
+      "driveLink": null,
+      "category": "quant",
+      "featured": false,
+      "badge": null,
+      "status": "coming_soon",
+      "theme": "default"
+    },
+    {
+      "id": "rc-hub",
+      "name": "Reading Comprehension Practice Hub",
+      "icon": "📖",
+      "tag": "HTML Interactive Tool",
+      "tagBg": "#e6f4ec",
+      "tagColor": "#1A5C3A",
+      "iconBg": "#e6f4ec",
+      "description": "Banking-themed RC passages with timed practice, answer explanations and score tracking.",
+      "features": [
+        "50+ RC passages, varied difficulty",
+        "Inference & vocab-in-context Q&A",
+        "SBI PO Mains & IBPS PO ready"
+      ],
+      "price": 29,
+      "originalPrice": 69,
+      "discount": "58% OFF",
+      "driveLink": null,
+      "category": "english",
+      "featured": true,
+      "badge": "🔥 New",
+      "status": "coming_soon",
+      "theme": "default"
+    },
+    {
+      "id": "current-affairs",
+      "name": "Current Affairs Monthly Digest",
+      "icon": "📅",
+      "tag": "PDF Study Guide",
+      "tagBg": "#FDF6DC",
+      "tagColor": "#C49A22",
+      "iconBg": "#FDF6DC",
+      "description": "Compact monthly digest of banking, economy and national current affairs — exactly what exams ask.",
+      "features": [
+        "Banking & economy focused",
+        "MCQ format with answers",
+        "Updated monthly for 2025–26"
+      ],
+      "price": 19,
+      "originalPrice": 49,
+      "discount": "60% OFF",
+      "driveLink": null,
+      "category": "ga",
+      "featured": false,
+      "badge": null,
+      "status": "coming_soon",
+      "theme": "default"
+    },
+    {
+      "id": "static-gk",
+      "name": "Static GK Banking Quick Reference",
+      "icon": "🏦",
+      "tag": "PDF Study Guide",
+      "tagBg": "#e6f4ec",
+      "tagColor": "#1A5C3A",
+      "iconBg": "#e6f4ec",
+      "description": "HQs of banks, taglines, RBI governors, schemes and financial bodies — one compact cheat sheet.",
+      "features": [
+        "All major bank HQs & taglines",
+        "Government schemes one-liners",
+        "Last-minute revision ready"
+      ],
+      "price": 15,
+      "originalPrice": 39,
+      "discount": "62% OFF",
+      "driveLink": null,
+      "category": "ga",
+      "featured": false,
+      "badge": null,
+      "status": "coming_soon",
+      "theme": "default"
+    },
+    {
+      "id": "ibps-pack",
+      "name": "IBPS PO Premium Prep Pack",
+      "icon": "🎯",
+      "tag": "Special Package",
+      "tagBg": "rgba(196,154,34,0.15)",
+      "tagColor": "#DDB431",
+      "iconBg": "rgba(196,154,34,0.15)",
+      "description": "Reasoning + Quant + English tools combined into one power pack. Built for IBPS PO Prelims & Mains.",
+      "features": [
+        "3 subject tools in one package",
+        "50% cheaper than buying separately",
+        "Telegram support included"
+      ],
+      "price": 59,
+      "originalPrice": 120,
+      "discount": "50% OFF",
+      "driveLink": null,
+      "category": "special",
+      "featured": true,
+      "badge": "⭐ Best Value",
+      "status": "coming_soon",
+      "theme": "dark-navy"
+    },
+    {
+      "id": "sbi-bundle",
+      "name": "SBI Clerk All-Subject Bundle",
+      "icon": "🏆",
+      "tag": "Special Package",
+      "tagBg": "rgba(196,154,34,0.15)",
+      "tagColor": "#DDB431",
+      "iconBg": "rgba(196,154,34,0.15)",
+      "description": "Complete SBI Clerk Prelims package — GA + English + Quant PDFs plus the interactive HTML tools.",
+      "features": [
+        "All subjects for SBI Clerk",
+        "Best value bundle available",
+        "Priority email support"
+      ],
+      "price": 69,
+      "originalPrice": 140,
+      "discount": "50% OFF",
+      "driveLink": "https://drive.google.com/uc?id=1SNy2MkzQb0Gwjgi2w-ZQ1wNm8TckHIwvizwafZmMtAE",
+      "category": "special",
+      "featured": false,
+      "badge": null,
+      "status": "coming_soon",
+      "theme": "dark-green"
+    },
+    {
+      "id": "up-police-constable-question-bank-2026",
+      "name": "UP Police Constable All Subjects Question Bank 2026",
+      "icon": "📘",
+      "tag": "Question Bank PDF",
+      "tagBg": "#EEF2FB",
+      "tagColor": "#0B1F4A",
+      "iconBg": "#EEF2FB",
+      "description": "Comprehensive question bank covering all subjects for UP Police Constable 2026 exam with exam-level practice.",
+      "features": [
+        "1000+ exam-level questions with latest pattern",
+        "Covers Reasoning, GK, Maths & Hindi in one PDF",
+        "Designed for quick revision + mock practice"
+      ],
+      "price": 49,
+      "originalPrice": 99,
+      "discount": "50% OFF",
+      "driveLink": "https://drive.google.com/uc?id=1tkCFsQBmWJ0duXYZjDp4wFMN6dFal3ui",
+      "categories": [
+        "home",
+        "police"
+      ],
+      "featured": true,
+      "badge": "🔥 Best Seller",
+      "status": "live",
+      "theme": "default"
+    },
+    {
+      "id": "up-constable-full-set",
+      "name": "UP Police Constable Full Bundle",
+      "icon": "📚",
+      "tag": "Full Exam Bundle",
+      "tagBg": "#EEF2FB",
+      "tagColor": "#0B1F4A",
+      "iconBg": "#EEF2FB",
+      "description": "Complete UP Police Constable preparation bundle including a detailed eBook (PDF) and 5 full-length mock tests.",
+      "features": [
+        "875+ questions with detailed explanations in the eBook",
+        "Full coverage of all subjects as per latest exam pattern",
+        "5 full-length exam-style mock tests for real practice"
+      ],
+      "price": 79,
+      "originalPrice": 200,
+      "discount": "61% OFF",
+      "driveLink": "https://drive.google.com/file/d/1RyhHxdmo2m5oVCd0rfY65tHg_6qMqAfY/view",
+      "categories": [
+        "home",
+        "police",
+        "special"
+      ],
+      "featured": true,
+      "badge": "875+ Questions with Answers",
+      "status": "live",
+      "theme": "default"
+    },
+    {
+      "id": "up-constable-only-mocm",
+      "name": "UP Police Constable Mock Bundle",
+      "icon": "📄",
+      "tag": "Full Mock Bundle",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "Complete UP Police Constable preparation bundle including 5 Mock papers .",
+      "features": [
+        "750+ questions with detailed explanations in the mock paper",
+        "Full coverage of all subjects as per latest exam pattern",
+        "5 full-length exam-style mock tests for real practice"
+      ],
+      "price": 39,
+      "originalPrice": 80,
+      "discount": "51% OFF",
+      "status": "free",
+      "theme": "default",
+      "badge": "750+ Questions with Answers",
+      "driveLink": "https://drive.google.com/file/d/1TBZcGL4dm5wrBDmrZ43ixef5AhH0dZbZ/view?usp=drivesdk",
+      "demoLink": "https://drive.google.com/file/d/1TBZcGL4dm5wrBDmrZ43ixef5AhH0dZbZ/view?usp=drivesdk",
+      "externalLink": null,
+      "bannerUrl": "https://drive.google.com/file/d/1HZjWd0042K3onW-BdjNvWX6uJ7_Iaweg/view?usp=drivesdk",
+      "categories": [
+        "home",
+        "police"
+      ],
+      "featured": true
+    }
   ],
-
-  "price": 49,
-  "originalPrice": 99,
-  "discount": "50% OFF",
-
-  "driveLink": "https://drive.google.com/uc?id=1tkCFsQBmWJ0duXYZjDp4wFMN6dFal3ui",
-
-  "categories": ["home", "police"],
-
-  "featured": true,
-  "badge": "🔥 Best Seller",
-
-  "status": "live",
-  "theme": "default"
-  },
-  {
-  "id": "up-constable-full-set",
-  "name": "UP Police Constable Full Bundle",
-  "icon": "📚",
-
-  "tag": "Full Exam Bundle",
-  "tagBg": "#EEF2FB",
-  "tagColor": "#0B1F4A",
-  "iconBg": "#EEF2FB",
-
-  "description": "Complete UP Police Constable preparation bundle including a detailed eBook (PDF) and 5 full-length mock tests.",
-
-  "features": [
-    "875+ questions with detailed explanations in the eBook",
-    "Full coverage of all subjects as per latest exam pattern",
-    "5 full-length exam-style mock tests for real practice"
-  ],
-
-  "price": 79,
-  "originalPrice": 200,
-  "discount": "61% OFF",
-
-  "driveLink": "https://drive.google.com/file/d/1RyhHxdmo2m5oVCd0rfY65tHg_6qMqAfY/view",
-
-  "categories": ["home", "police", "special"],
-
-  "featured": true,
-  "badge": "875+ Questions with Answers",
-
-  "status": "live",
-  "theme": "default"
-  },
-  {
-  "id": "up-constable-only-mocm",
-  "name": "UP Police Constable Mock Bundle",
-  "icon": "📄",
-
-  "tag": "Full Mock Bundle",
-  "tagBg": "#EEF2FB",
-  "tagColor": "#0B1F4A",
-  "iconBg": "#EEF2FB",
-
-  "description": "Complete UP Police Constable preparation bundle including 5 Mock papers .",
-
-  "features": [
-    "750+ questions with detailed explanations in the mock paper",
-    "Full coverage of all subjects as per latest exam pattern",
-    "5 full-length exam-style mock tests for real practice"
-  ],
-
-  "price": 39,
-  "originalPrice": 80,
-  "discount": "51% OFF",
-
-  "driveLink": "https://drive.google.com/file/d/1TBZcGL4dm5wrBDmrZ43ixef5AhH0dZbZ/view?usp=drivesdk",
-
-  "categories": ["home", "police"],
-
-  "featured": true,
-  "badge": "750+ Questions with Answers",
-
-  "status": "live",
-  "theme": "default"
-  }
+  "categories": [
+    {
+      "id": "home",
+      "label": "🏠 Home"
+    },
+    {
+      "id": "reasoning",
+      "label": "🧠 Reasoning"
+    },
+    {
+      "id": "quant",
+      "label": "🔢 Quant"
+    },
+    {
+      "id": "english",
+      "label": "📝 English"
+    },
+    {
+      "id": "banking",
+      "label": "🏦 Banking"
+    },
+    {
+      "id": "ssc",
+      "label": "📋 SSC"
+    },
+    {
+      "id": "railway",
+      "label": "🚂 Railway"
+    },
+    {
+      "id": "police",
+      "label": "👮 Police"
+    },
+    {
+      "id": "special",
+      "label": "⭐ Special"
+    },
+    {
+      "id": "university",
+      "label": "🎓 University"
+    }
   ]
+}
