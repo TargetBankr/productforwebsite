@@ -353,30 +353,6 @@
       "theme": "dark-navy"
     },
     {
-      "id": "sbi-bundle",
-      "name": "SBI Clerk All-Subject Bundle",
-      "icon": "🏆",
-      "tag": "Special Package",
-      "tagBg": "rgba(196,154,34,0.15)",
-      "tagColor": "#DDB431",
-      "iconBg": "rgba(196,154,34,0.15)",
-      "description": "Complete SBI Clerk Prelims package — GA + English + Quant PDFs plus the interactive HTML tools.",
-      "features": [
-        "All subjects for SBI Clerk",
-        "Best value bundle available",
-        "Priority email support"
-      ],
-      "price": 69,
-      "originalPrice": 140,
-      "discount": "50% OFF",
-      "driveLink": "https://drive.google.com/uc?id=1SNy2MkzQb0Gwjgi2w-ZQ1wNm8TckHIwvizwafZmMtAE",
-      "category": "special",
-      "featured": false,
-      "badge": null,
-      "status": "coming_soon",
-      "theme": "dark-green"
-    },
-    {
       "id": "up-police-constable-question-bank-2026",
       "name": "UP Police Constable All Subjects Question Bank 2026",
       "icon": "📘",
