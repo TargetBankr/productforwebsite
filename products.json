@@ -83,9 +83,9 @@
       "name": "English Vocabulary Booster",
       "icon": "📝",
       "tag": "Tool",
-      "tagBg": "#e6f4ec",
-      "tagColor": "#1A5C3A",
-      "iconBg": "#e6f4ec",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
       "description": "Store highest frequency vocabulary just in seconds and revise on daily basis to guarantee success.",
       "features": [
         "2 full-fledged PDFs for vocab",
@@ -95,21 +95,26 @@
       "price": 19,
       "originalPrice": 39,
       "discount": "50% OFF",
-      "driveLink": "https://drive.google.com/uc?id=12A38mhefhQ79JNTO3okoZgNTFpJrtjjB-XVObr0lNy8",
-      "category": "home",
-      "featured": false,
+      "status": "free",
+      "theme": "default",
       "badge": null,
-      "status": "live",
-      "theme": "default"
+      "driveLink": "https://drive.google.com/uc?id=12A38mhefhQ79JNTO3okoZgNTFpJrtjjB-XVObr0lNy8",
+      "demoLink": null,
+      "externalLink": null,
+      "bannerUrl": null,
+      "categories": [
+        "home"
+      ],
+      "featured": true
     },
     {
       "id": "pdf-splitter",
       "name": "PDF Splitter and Study Tool",
       "icon": "📊",
       "tag": "HTML Interactive Tool",
-      "tagBg": "#EEF2FB",
-      "tagColor": "#0B1F4A",
-      "iconBg": "#EEF2FB",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
       "description": "PDF Splitter And Study Tool gives you the full-fledged power to manage your bulky PDFs into smaller chunks.",
       "features": [
         "Supports heavy PDFs",
@@ -119,12 +124,17 @@
       "price": 29,
       "originalPrice": 59,
       "discount": "50% OFF",
-      "driveLink": "https://drive.google.com/uc?id=1m9BhcYC1kil2Z5gymFTpoUDvTkzft7OC_v0NuPWoRec",
-      "category": "home",
-      "featured": false,
+      "status": "free",
+      "theme": "default",
       "badge": null,
-      "status": "live",
-      "theme": "default"
+      "driveLink": "https://drive.google.com/uc?id=1m9BhcYC1kil2Z5gymFTpoUDvTkzft7OC_v0NuPWoRec",
+      "demoLink": null,
+      "externalLink": null,
+      "bannerUrl": null,
+      "categories": [
+        "home"
+      ],
+      "featured": false
     },
     {
       "id": "bundle",
