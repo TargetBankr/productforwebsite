@@ -209,30 +209,6 @@
       "theme": "default"
     },
     {
-      "id": "arithmetic-pdf",
-      "name": "Arithmetic & Number Series Shortcuts PDF",
-      "icon": "📐",
-      "tag": "PDF Study Guide",
-      "tagBg": "#FDF6DC",
-      "tagColor": "#C49A22",
-      "iconBg": "#FDF6DC",
-      "description": "Speed maths tricks, percentage shortcuts, number series patterns — all in one formula-packed PDF.",
-      "features": [
-        "150+ shortcut formulas",
-        "Solved examples for each trick",
-        "Prelims & Mains both covered"
-      ],
-      "price": 19,
-      "originalPrice": 49,
-      "discount": "60% OFF",
-      "driveLink": null,
-      "category": "quant",
-      "featured": false,
-      "badge": null,
-      "status": "coming_soon",
-      "theme": "default"
-    },
-    {
       "id": "current-affairs",
       "name": "Current Affairs Monthly Digest",
       "icon": "📅",
