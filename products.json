@@ -108,30 +108,6 @@
       "theme": "default"
     },
     {
-      "id": "logical-reasoning-pdf",
-      "name": "Logical Reasoning PDF Workbook",
-      "icon": "📋",
-      "tag": "PDF Study Guide",
-      "tagBg": "#EEF2FB",
-      "tagColor": "#0B1F4A",
-      "iconBg": "#EEF2FB",
-      "description": "Syllogisms, coded inequalities, input-output and machine input — all solved with shortcut methods.",
-      "features": [
-        "200+ practice questions",
-        "Trick-based shortcut methods",
-        "SBI Clerk & IBPS RRB ready"
-      ],
-      "price": 19,
-      "originalPrice": 49,
-      "discount": "60% OFF",
-      "driveLink": null,
-      "category": "reasoning",
-      "featured": false,
-      "badge": null,
-      "status": "coming_soon",
-      "theme": "default"
-    },
-    {
       "id": "di-toolkit",
       "name": "Data Interpretation Mastery Toolkit",
       "icon": "📊",
