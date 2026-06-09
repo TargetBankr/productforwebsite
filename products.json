@@ -5,24 +5,30 @@
       "name": "Quantitative Aptitude Practice Hub",
       "icon": "🔢",
       "tag": "HTML Interactive Tool",
-      "tagBg": "#e6f4ec",
-      "tagColor": "#1A5C3A",
-      "iconBg": "#e6f4ec",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
       "description": "Unlimited timed problems across simplification, DI, number series & more. Works offline in any browser.",
       "features": [
         "Smart timer with auto-scoring",
         "Practice problems over speed maths",
         "IBPS PO & SBI pattern aligned"
       ],
-      "price": 39,
+      "price": 40,
       "originalPrice": 80,
       "discount": "51% OFF",
-      "driveLink": "https://github.com/TargetBankr/app-Tc-101/releases/download/v1.0/base.apk",
-      "category": "home",
-      "featured": true,
-      "badge": "⭐ Best Seller",
       "status": "live",
-      "theme": "default"
+      "theme": "default",
+      "badge": "⭐ Best Seller",
+      "driveLink": "https://github.com/TargetBankr/app-Tc-101/releases/download/v1.0/base.apk",
+      "demoLink": null,
+      "externalLink": null,
+      "bannerUrl": null,
+      "categories": [
+        "home",
+        "banking"
+      ],
+      "featured": true
     },
     {
       "id": "banking-flashcards",
