@@ -84,35 +84,6 @@
       "featured": true
     },
     {
-      "id": "pdf-splitter",
-      "name": "PDF Splitter and Study Tool",
-      "icon": "📊",
-      "tag": "HTML Interactive Tool",
-      "tagBg": "rgba(255,69,0,.1)",
-      "tagColor": "var(--or3)",
-      "iconBg": "rgba(255,69,0,.1)",
-      "description": "PDF Splitter And Study Tool gives you the full-fledged power to manage your bulky PDFs into smaller chunks.",
-      "features": [
-        "Supports heavy PDFs",
-        "Speed booster",
-        "The exam cracker tool for theoretical subjects"
-      ],
-      "price": 29,
-      "originalPrice": 59,
-      "discount": "50% OFF",
-      "status": "free",
-      "theme": "default",
-      "badge": null,
-      "driveLink": "https://drive.google.com/uc?id=1m9BhcYC1kil2Z5gymFTpoUDvTkzft7OC_v0NuPWoRec",
-      "demoLink": null,
-      "externalLink": null,
-      "bannerUrl": null,
-      "categories": [
-        "home"
-      ],
-      "featured": false
-    },
-    {
       "id": "puzzle-kit",
       "name": "Puzzle & Seating Arrangement Pro Kit",
       "icon": "🧩",
