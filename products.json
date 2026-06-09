@@ -450,18 +450,6 @@
       "label": "🏠 Home"
     },
     {
-      "id": "reasoning",
-      "label": "🧠 Reasoning"
-    },
-    {
-      "id": "english",
-      "label": "📝 English"
-    },
-    {
-      "id": "ga",
-      "label": "🌐 Gen. Awareness"
-    },
-    {
       "id": "banking",
       "label": "🏦 Banking"
     },
@@ -470,20 +458,16 @@
       "label": "📋 SSC"
     },
     {
-      "id": "railway",
-      "label": "🚂 Railway"
-    },
-    {
       "id": "police",
       "label": "👮 Police"
     },
     {
-      "id": "hssc",
-      "label": "🏛️ HSSC"
-    },
-    {
       "id": "special",
       "label": "⭐ Special"
+    },
+    {
+      "id": "university",
+      "label": "🎓University"
     }
   ]
 }
