@@ -137,30 +137,6 @@
       "featured": false
     },
     {
-      "id": "bundle",
-      "name": "All-in-One Exam Preparation Pack",
-      "icon": "🏆",
-      "tag": "Complete Bundle",
-      "tagBg": "rgba(196,154,34,0.15)",
-      "tagColor": "#DDB431",
-      "iconBg": "rgba(196,154,34,0.15)",
-      "description": "Every tool + every PDF. The complete arsenal for IBPS exams, SBI exams, and RBI exams.",
-      "features": [
-        "All 5 tools + guides included",
-        "Free Priority Access to Telegram Group",
-        "Priority email support"
-      ],
-      "price": 99,
-      "originalPrice": 149,
-      "discount": "33% OFF",
-      "driveLink": "https://drive.google.com/uc?id=1SNy2MkzQb0Gwjgi2w-ZQ1wNm8TckHIwvizwafZmMtAE",
-      "category": "home",
-      "featured": false,
-      "badge": null,
-      "status": "live",
-      "theme": "dark-red"
-    },
-    {
       "id": "puzzle-kit",
       "name": "Puzzle & Seating Arrangement Pro Kit",
       "icon": "🧩",
