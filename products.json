@@ -233,30 +233,6 @@
       "theme": "default"
     },
     {
-      "id": "static-gk",
-      "name": "Static GK Banking Quick Reference",
-      "icon": "🏦",
-      "tag": "PDF Study Guide",
-      "tagBg": "#e6f4ec",
-      "tagColor": "#1A5C3A",
-      "iconBg": "#e6f4ec",
-      "description": "HQs of banks, taglines, RBI governors, schemes and financial bodies — one compact cheat sheet.",
-      "features": [
-        "All major bank HQs & taglines",
-        "Government schemes one-liners",
-        "Last-minute revision ready"
-      ],
-      "price": 15,
-      "originalPrice": 39,
-      "discount": "62% OFF",
-      "driveLink": null,
-      "category": "ga",
-      "featured": false,
-      "badge": null,
-      "status": "coming_soon",
-      "theme": "default"
-    },
-    {
       "id": "up-police-constable-question-bank-2026",
       "name": "UP Police Constable All Subjects Question Bank 2026",
       "icon": "📘",
