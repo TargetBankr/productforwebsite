@@ -108,30 +108,6 @@
       "theme": "default"
     },
     {
-      "id": "di-toolkit",
-      "name": "Data Interpretation Mastery Toolkit",
-      "icon": "📊",
-      "tag": "HTML Interactive Tool",
-      "tagBg": "#e6f4ec",
-      "tagColor": "#1A5C3A",
-      "iconBg": "#e6f4ec",
-      "description": "Bar charts, pie charts, tables and line graphs — the toughest DI sets with auto-scoring and timers.",
-      "features": [
-        "100+ DI sets across all formats",
-        "Difficulty: easy to SBI Mains level",
-        "Works offline on mobile"
-      ],
-      "price": 29,
-      "originalPrice": 69,
-      "discount": "58% OFF",
-      "driveLink": null,
-      "category": "quant",
-      "featured": true,
-      "badge": "🔥 New",
-      "status": "coming_soon",
-      "theme": "default"
-    },
-    {
       "id": "up-police-constable-question-bank-2026",
       "name": "UP Police Constable All Subjects Question Bank 2026",
       "icon": "📘",
