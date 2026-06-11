@@ -460,6 +460,43 @@
       "badge": "750+ Questions with Answers",
       "status": "live",
       "theme": "default"
+    },
+    {
+      "id": "ot-sn-26-s2",
+      "name": "Office Tool Short Notes GJU Exams | FULL COVERAGE Guide",
+      "icon": "📘",
+      "tag": "PDF Study Guide",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "Office Tool Full Coverage Notes are designed to provide complete syllabus coverage in a simple and exam-focused format. These notes cover all major topics, concepts, definitions, and important points required for university examinations. The content is organized systematically to help students understand topics quickly and revise efficiently. Whether you are studying regularly or preparing at the last moment, these notes serve as a reliable resource for comprehensive preparation. The material is easy to read, well-structured, and created with an examination perspective to maximize your performance.",
+      "features": [
+        "✅ Exam-Oriented Content",
+        "✅ Quick Revision Notes",
+        "✅ Important Definitions & Concepts",
+        "✅ Easy-to-Understand Language",
+        "✅ Covers Frequently Asked Questions",
+        "✅ Structured Topic-Wise Format",
+        "✅ Time-Saving Study Material",
+        "✅ Suitable for B.Com & MIC Students",
+        "✅ Mobile & PDF Friendly",
+        "✅ Ideal for Last-Minute Preparation"
+      ],
+      "price": 19,
+      "originalPrice": 40,
+      "discount": "51% OFF",
+      "status": "live",
+      "theme": "dark-navy",
+      "badge": "🔥 New",
+      "driveLink": "https://drive.google.com/uc?export=download&id=1DNLeRLJ-_-3-Os4n8mbJfPYyAnP82STD",
+      "demoLink": null,
+      "externalLink": null,
+      "bannerUrl": "https://drive.google.com/thumbnail?id=1BoaZS81MZOdZBLh1pgLnLZT4B0MkgvCp&sz=w800",
+      "categories": [
+        "home",
+        "university"
+      ],
+      "featured": true
     }
   ],
   "categories": [
