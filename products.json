@@ -87,25 +87,27 @@
       "tagColor": "var(--or3)",
       "iconBg": "rgba(255,69,0,.1)",
       "description": "Store highest frequency vocabulary just in seconds and revise on daily basis to guarantee success.",
+      "shortDesc": null,
       "features": [
         "2 full-fledged PDFs for vocab",
         "350+ solved vocab",
         "SBI PO Mains focused"
       ],
-      "price": 0,
+      "price": 19,
       "originalPrice": 39,
       "discount": "50% OFF",
-      "status": "free",
+      "status": "live",
       "theme": "default",
-      "badge": null,
+      "badge": "⭐ Best Seller",
       "driveLink": "https://drive.google.com/uc?id=12A38mhefhQ79JNTO3okoZgNTFpJrtjjB-XVObr0lNy8",
       "demoLink": "https://drive.google.com/uc?id=12A38mhefhQ79JNTO3okoZgNTFpJrtjjB-XVObr0lNy8",
       "externalLink": null,
       "bannerUrl": null,
       "categories": [
-        "home"
+        "home",
+        "banking"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "pdf-splitter",
