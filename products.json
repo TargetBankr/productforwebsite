@@ -118,6 +118,7 @@
       "tagColor": "var(--or3)",
       "iconBg": "rgba(255,69,0,.1)",
       "description": "PDF Splitter And Study Tool gives you the full-fledged power to manage your bulky PDFs into smaller chunks.",
+      "shortDesc": null,
       "features": [
         "Supports heavy PDFs",
         "Speed booster",
@@ -126,7 +127,7 @@
       "price": 29,
       "originalPrice": 59,
       "discount": "50% OFF",
-      "status": "free",
+      "status": "live",
       "theme": "default",
       "badge": null,
       "driveLink": "https://drive.google.com/uc?id=1m9BhcYC1kil2Z5gymFTpoUDvTkzft7OC_v0NuPWoRec",
