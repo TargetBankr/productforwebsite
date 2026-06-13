@@ -329,30 +329,6 @@
       "theme": "default"
     },
     {
-      "id": "ibps-pack",
-      "name": "IBPS PO Premium Prep Pack",
-      "icon": "🎯",
-      "tag": "Special Package",
-      "tagBg": "rgba(196,154,34,0.15)",
-      "tagColor": "#DDB431",
-      "iconBg": "rgba(196,154,34,0.15)",
-      "description": "Reasoning + Quant + English tools combined into one power pack. Built for IBPS PO Prelims & Mains.",
-      "features": [
-        "3 subject tools in one package",
-        "50% cheaper than buying separately",
-        "Telegram support included"
-      ],
-      "price": 59,
-      "originalPrice": 120,
-      "discount": "50% OFF",
-      "driveLink": null,
-      "category": "special",
-      "featured": true,
-      "badge": "⭐ Best Value",
-      "status": "coming_soon",
-      "theme": "dark-navy"
-    },
-    {
       "id": "up-police-constable-question-bank-2026",
       "name": "UP Police Constable All Subjects Question Bank 2026",
       "icon": "📘",
