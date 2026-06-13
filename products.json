@@ -233,30 +233,6 @@
       "theme": "default"
     },
     {
-      "id": "rc-hub",
-      "name": "Reading Comprehension Practice Hub",
-      "icon": "📖",
-      "tag": "HTML Interactive Tool",
-      "tagBg": "#e6f4ec",
-      "tagColor": "#1A5C3A",
-      "iconBg": "#e6f4ec",
-      "description": "Banking-themed RC passages with timed practice, answer explanations and score tracking.",
-      "features": [
-        "50+ RC passages, varied difficulty",
-        "Inference & vocab-in-context Q&A",
-        "SBI PO Mains & IBPS PO ready"
-      ],
-      "price": 29,
-      "originalPrice": 69,
-      "discount": "58% OFF",
-      "driveLink": null,
-      "category": "english",
-      "featured": true,
-      "badge": "🔥 New",
-      "status": "coming_soon",
-      "theme": "default"
-    },
-    {
       "id": "up-police-constable-question-bank-2026",
       "name": "UP Police Constable All Subjects Question Bank 2026",
       "icon": "📘",
