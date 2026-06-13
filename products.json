@@ -221,7 +221,7 @@
       "categories": [
         "police"
       ],
-      "featured": false
+      "featured": true
     },
     {
       "id": "up-constable-only-mocm",
@@ -249,7 +249,7 @@
       "externalLink": null,
       "bannerUrl": null,
       "categories": [
-        "home"
+        "police"
       ],
       "featured": true
     },
@@ -262,6 +262,7 @@
       "tagColor": "var(--or3)",
       "iconBg": "rgba(255,69,0,.1)",
       "description": "Office Tool Full Coverage Notes are designed to provide complete syllabus coverage in a simple and exam-focused format. These notes cover all major topics, concepts, definitions, and important points required for university examinations. The content is organized systematically to help students understand topics quickly and revise efficiently. Whether you are studying regularly or preparing at the last moment, these notes serve as a reliable resource for comprehensive preparation. The material is easy to read, well-structured, and created with an examination perspective to maximize your performance.",
+      "shortDesc": "College notes to excel without any pressure.",
       "features": [
         "✅ Exam-Oriented Content",
         "✅ Quick Revision Notes",
