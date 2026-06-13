@@ -172,6 +172,7 @@
       "tagColor": "var(--or3)",
       "iconBg": "rgba(255,69,0,.1)",
       "description": "Comprehensive question bank covering all subjects for UP Police Constable 2026 exam with exam-level practice.",
+      "shortDesc": null,
       "features": [
         "1000+ exam-level questions with latest pattern",
         "Covers Reasoning, GK, Maths & Hindi in one PDF",
@@ -188,7 +189,6 @@
       "externalLink": null,
       "bannerUrl": "https://drive.google.com/thumbnail?id=1oQTsFhMooWC1Tmn7lF_p9YBBPoDH2kje&sz=w800",
       "categories": [
-        "home",
         "police"
       ],
       "featured": true
