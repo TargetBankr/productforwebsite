@@ -281,30 +281,6 @@
       "theme": "default"
     },
     {
-      "id": "current-affairs",
-      "name": "Current Affairs Monthly Digest",
-      "icon": "📅",
-      "tag": "PDF Study Guide",
-      "tagBg": "#FDF6DC",
-      "tagColor": "#C49A22",
-      "iconBg": "#FDF6DC",
-      "description": "Compact monthly digest of banking, economy and national current affairs — exactly what exams ask.",
-      "features": [
-        "Banking & economy focused",
-        "MCQ format with answers",
-        "Updated monthly for 2025–26"
-      ],
-      "price": 19,
-      "originalPrice": 49,
-      "discount": "60% OFF",
-      "driveLink": null,
-      "category": "ga",
-      "featured": false,
-      "badge": null,
-      "status": "coming_soon",
-      "theme": "default"
-    },
-    {
       "id": "up-police-constable-question-bank-2026",
       "name": "UP Police Constable All Subjects Question Bank 2026",
       "icon": "📘",
