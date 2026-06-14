@@ -290,6 +290,46 @@
         "university"
       ],
       "featured": true
+    },
+    {
+      "id": "chsl-gk",
+      "name": "SSC CHSL General Awareness",
+      "icon": "📘",
+      "tag": "FULL GK PDF",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "SSC CHSL General Awareness PDF is a comprehensive practice resource containing 1000+ MCQs based on the latest SSC CHSL syllabus. The questions are designed to cover all major General Knowledge and General Science topics frequently asked in SSC examinations. This PDF helps aspirants strengthen concepts, identify weak areas, and practice exam-level questions in a structured manner. Whether you're preparing for SSC CHSL, CGL, MTS, GD, or other competitive exams, this resource provides extensive coverage of History, Geography, Polity, Economics, Science, Current Affairs, Static GK, and more. With a focus on revision and practice, the PDF serves as a one-stop solution for mastering the General Awareness section and maximizing your exam score.",
+      "shortDesc": "Master SSC CHSL General Awareness with 1000+ exam-oriented MCQs covering the complete GK syllabus. Perfect for revision, practice, and improving your score in the GA section.",
+      "features": [
+        "✅ 1000+ Practice MCQs",
+        "✅ Complete SSC CHSL General Awareness Coverage",
+        "✅ History, Geography, Polity & Economics",
+        "✅ Physics, Chemistry & Biology Questions",
+        "✅ Current Affairs & Static GK Included",
+        "✅ Exam-Oriented Question Selection",
+        "✅ Useful for SSC CHSL, CGL, MTS, GD & Other Exams",
+        "✅ Quick Revision Friendly Format",
+        "✅ Improves Accuracy & Question-Solving Speed",
+        "✅ Suitable for Beginners and Advanced Aspirants",
+        "✅ Mobile-Friendly PDF Format",
+        "✅ Ideal for Self-Study and Mock Practice"
+      ],
+      "price": 49,
+      "originalPrice": 99,
+      "discount": "50% OFF",
+      "status": "live",
+      "theme": "dark-navy",
+      "badge": "⭐ Best Seller",
+      "driveLink": "https://drive.google.com/thumbnail?id=1V4SqwrrzkZ1GWGOohltYDsM4EfPxUEfs&sz=w1600",
+      "demoLink": "https://drive.google.com/uc?export=download&id=1oE8ZQRfIwtIzwmAjHF04H94cu8c50vdK",
+      "externalLink": null,
+      "bannerUrl": "https://drive.google.com/thumbnail?id=1FgMEkcCJXMa5wuZuHFs447IE1M7xMlfn&sz=w800",
+      "categories": [
+        "home",
+        "ssc"
+      ],
+      "featured": true
     }
   ],
   "categories": [
