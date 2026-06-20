@@ -367,6 +367,10 @@
     {
       "id": "university",
       "label": "🎓University"
+    },
+    {
+      "id": "hssc",
+      "label": "HSSC"
     }
   ]
 }
