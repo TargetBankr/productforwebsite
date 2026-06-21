@@ -341,6 +341,49 @@
         "ssc"
       ],
       "featured": true
+    },
+    {
+      "id": "ssc-mat-qb",
+      "name": "SSC CHSL MATHS QUESTION BANK",
+      "icon": "🔢",
+      "tag": "Full MATHS PRACTICE ",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "600+ Exam-Oriented Questions ✅ Complete SSC CHSL Maths Syllabus Coverage ✅ Topic-Wise Structured Practice Sets ✅ Based on Latest SSC CHSL Exam Pattern ✅ Previous Year Question Trend Analysis ✅ Beginner-Friendly to Advanced-Level Questions ✅ Detailed Solutions & Explanations ✅ Concept-Building + Practice Approach ✅ Speed & Accuracy Improvement Focus ✅ Chapter-Wise Revision Support ✅ Self-Assessment & Progress Tracking ✅ Frequently Asked Questions Included ✅ Easy-to-Understand Language ✅ Suitable for Daily Practice & Mock Preparation ✅ Printable & Mobile-Friendly Format ✅ Designed for High-Score Preparation",
+      "shortDesc": "OVER 600+ EXAM ORIENTED QUESTION COVERING THE SYLLABUS OF SSC CHSL .",
+      "features": [
+        "✅ 600+ Exam-Oriented Questions",
+        "✅ Complete SSC CHSL Maths Syllabus Coverage",
+        "✅ Topic-Wise Structured Practice Sets",
+        "✅ Based on Latest SSC CHSL Exam Pattern",
+        "✅ Previous Year Question Trend Analysis",
+        "✅ Beginner-Friendly to Advanced-Level Questions",
+        "✅ Detailed Solutions & Explanations",
+        "✅ Concept-Building + Practice Approach",
+        "✅ Speed & Accuracy Improvement Focus",
+        "✅ Chapter-Wise Revision Support",
+        "✅ Self-Assessment",
+        "✅ Frequently Asked Questions Included",
+        "✅ Easy-to-Understand Language",
+        "✅ Suitable for Daily Practice & Mock Preparation",
+        "✅ Printable & Mobile-Friendly Format",
+        "✅ Designed for High-Score Preparation"
+      ],
+      "price": 29,
+      "originalPrice": 69,
+      "discount": "57% OFF",
+      "status": "live",
+      "theme": "default",
+      "badge": "NEW 🔥",
+      "driveLink": "https://drive.google.com/uc?export=download&id=1lPHXMChPqqw2EWuK7rXQ5DvMRoGmThsB",
+      "demoLink": "https://drive.google.com/uc?export=download&id=1Z1-tPhTSkl9JKPMrlcCDNoahZ9en0F3h",
+      "externalLink": null,
+      "bannerUrl": null,
+      "categories": [
+        "ssc"
+      ],
+      "featured": true
     }
   ],
   "categories": [
