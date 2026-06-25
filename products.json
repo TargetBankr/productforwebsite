@@ -433,7 +433,8 @@
       "externalLink": null,
       "bannerUrl": "https://drive.google.com/thumbnail?id=1uPOHaesNfkWzobva6P7hu_ebIw4dbqH3&sz=w800",
       "categories": [
-        "home"
+        "home",
+        "hssc"
       ],
       "featured": true
     }
@@ -465,7 +466,7 @@
     },
     {
       "id": "hssc",
-      "label": "HSSC"
+      "label": "📢HSSC"
     }
   ]
 }
