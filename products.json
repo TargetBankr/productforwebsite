@@ -437,6 +437,43 @@
         "hssc"
       ],
       "featured": true
+    },
+    {
+      "id": "hr-grp-d-sci-26",
+      "name": "HARAYANA CET GROUP D SCIENCE BOOKLET",
+      "icon": "📚",
+      "tag": "PDF QUESTION BANK ",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "Prepare smarter for the Haryana CET Group D exam with this Science Booklet. It is designed according to the latest exam pattern and focuses on maximum practice instead of lengthy theory. The booklet contains chapter-wise questions, concept-based MCQs, and exam-oriented practice to help you improve accuracy and confidence. Perfect for beginners as well as revision before the exam.",
+      "shortDesc": "Haryana CET Group D Science Booklet with chapter-wise practice questions, PYQ-based pattern, and exam-focused preparation",
+      "features": [
+        "Latest Haryana CET Group D Pattern",
+        "Chapter-wise Practice",
+        "100+ Exam-Oriented MCQs",
+        "PYQ-Based Question Style",
+        "Covers Complete Science Syllabus",
+        "Beginner Friendly",
+        "Quick Revision Focus",
+        "Detailed Answer Key",
+        "High-Quality Practice",
+        "Suitable for Self-Study"
+      ],
+      "price": 39,
+      "originalPrice": 69,
+      "discount": "55%",
+      "status": "live",
+      "theme": "default",
+      "badge": "⭐ Best Seller",
+      "driveLink": "https://drive.google.com/uc?export=download&id=1ifD21-7XgrppcVe7rTMsJXCm-6O0OXYi",
+      "demoLink": null,
+      "externalLink": null,
+      "bannerUrl": null,
+      "categories": [
+        "home"
+      ],
+      "featured": true
     }
   ],
   "categories": [
