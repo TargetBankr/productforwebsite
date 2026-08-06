@@ -451,6 +451,48 @@
         "hssc"
       ],
       "featured": true
+    },
+    {
+      "id": "1k-jr",
+      "name": "HARTRON JUNIOR PROGRAMMER 2026 1000+ Questions Question Bank",
+      "icon": "📘",
+      "tag": "QUESTION BANK",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "Prepare smarter for the HARTRON Junior Programmer 2026 exam with this 1000+ Questions Question Bank, designed according to the official syllabus. Every topic is covered through carefully selected MCQs to help you strengthen concepts, identify weak areas, and gain extensive practice before the exam. Whether you're revising after completing your theory or directly practicing questions, this question bank provides structured, syllabus-focused preparation. It is ideal for self-study, daily practice, quick revision, and mock preparation. With broad coverage of all technical subjects, this resource helps you become familiar with the types of questions likely to appear in the Domain Knowledge Test while improving speed and accuracy. TOPICS COVERED - ASP.NET Visual Basic Java Programming in C/C++ MS Office Internet, HTML & DHTML Windows & Computer Fundamentals Networking System Analysis & Design Hardware Concepts Operating System Database Management System (DBMS) PHP",
+      "shortDesc": "Master the HARTRON Junior Programmer 2026 syllabus with a comprehensive 1000+ Questions Question Bank. Practice topic-wise MCQs covering every domain in the official syllabus and improve your speed, accuracy, and exam confidence.",
+      "features": [
+        "1000+ carefully selected practice questions.",
+        "Based on the official HARTRON Junior Programmer 2026 syllabus.",
+        "Topic-wise organized for systematic preparation.",
+        "Covers all 13 technical subjects.",
+        "Ideal for daily practice and revision.",
+        "Helps improve speed and accuracy.",
+        "Suitable for beginners as well as repeat aspirants.",
+        "Questions designed for exam-oriented preparation.",
+        "Excellent companion alongside notes and mock tests.",
+        "Easy-to-follow topic-wise structure.",
+        "Helps identify weak areas quickly.",
+        "Perfect for last-minute revision.",
+        "Focused on Domain Knowledge Test preparation.",
+        "Digital PDF format for instant access.",
+        "Study anytime on mobile, tablet, or laptop."
+      ],
+      "price": 99,
+      "originalPrice": 149,
+      "discount": "33% OFF",
+      "status": "live",
+      "theme": "dark-red",
+      "badge": "🔥 New",
+      "driveLink": "https://drive.google.com/drive/folders/1ww3qxl7iFB3rOg2lsyOzqSAwaRxUk6WM",
+      "demoLink": "https://drive.google.com/file/d/1qI9-SraaPerAe2yRHy9s6jdWKI17-TH9/view?usp=drivesdk",
+      "externalLink": null,
+      "bannerUrl": "https://drive.google.com/file/d/1RRwGZE2DjVY5zgIZI5ISzH28DLEPDF8P/view?usp=drivesdk",
+      "categories": [
+        "home"
+      ],
+      "featured": true
     }
   ],
   "categories": [
