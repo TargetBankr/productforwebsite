@@ -493,6 +493,50 @@
         "ssc"
       ],
       "featured": true
+    },
+    {
+      "id": "hrn-en",
+      "name": "Haryana Group D 2026 – Complete Exam-Oriented Notes",
+      "icon": "📄",
+      "tag": "Product",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "Haryana Group D 2026 Complete Notes are designed for students who want to cover the syllabus systematically without going through unnecessarily lengthy study material. The notes cover the important concepts, facts, formulas, definitions and exam-relevant information required for Haryana Group D preparation. Every major topic is presented in a simple and revision-friendly format so that you can understand the concept and revise it quickly before the exam. The focus is not on making the notes extremely long, but on providing the right amount of information required for effective exam preparation. Whether you are starting your preparation or looking for a reliable resource for revision, these notes can help you build your concepts and revise the complete syllabus efficiently.",
+      "shortDesc": "Complete Haryana Group D exam-focused notes covering all important subjects, concepts, facts and topics in a concise and easy-to-revise format.",
+      "features": [
+        "✅ Complete syllabus-oriented coverage",
+        "📚 Important concepts covered properly",
+        "🎯 Exam-focused and relevant content",
+        "📝 Important facts, definitions and key points included",
+        "⚡ Concise notes for faster revision",
+        "🔍 Neither unnecessarily lengthy nor overly short",
+        "🧠 Easy-to-understand explanations",
+        "📖 Structured topic-wise for systematic preparation",
+        "🔄 Useful for both first-time study and revision",
+        "💯 Focus on important information rather than unnecessary content",
+        "📌 Covers the concepts required for Haryana Group D preparation",
+        "🚀 Designed to save your preparation and revision time"
+      ],
+      "price": 199,
+      "originalPrice": 299,
+      "discount": "33% OFF",
+      "status": "coming_soon",
+      "theme": "default",
+      "badge": "⭐ Best Seller",
+      "driveLink": null,
+      "demoLink": null,
+      "externalLink": null,
+      "bannerUrl": null,
+      "categories": [
+        "home"
+      ],
+      "featured": false,
+      "rating": null,
+      "ratingCount": null,
+      "saleEndsAt": null,
+      "testimonial": null,
+      "faq": null
     }
   ],
   "categories": [
