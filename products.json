@@ -80,7 +80,7 @@
         "home",
         "hssc"
       ],
-      "featured": false,
+      "featured": true,
       "rating": null,
       "ratingCount": null,
       "saleEndsAt": null,
