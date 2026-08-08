@@ -538,6 +538,51 @@
         "ssc"
       ],
       "featured": true
+    },
+    {
+      "id": "hrn-hi",
+      "name": "हरियाणा ग्रुप D 2026 – Complete Exam-Oriented Notes",
+      "icon": "📄",
+      "tag": "SURE SHOT NOTES 🔥",
+      "tagBg": "rgba(255,69,0,.1)",
+      "tagColor": "var(--or3)",
+      "iconBg": "rgba(255,69,0,.1)",
+      "description": "हरियाणा ग्रुप D 2026 Complete Notes उन विद्यार्थियों के लिए तैयार किए गए हैं जो बिना अनावश्यक रूप से लंबे Study Material में समय लगाए पूरे Syllabus की अच्छी तैयारी और तेज Revision करना चाहते हैं। इन Notes में हरियाणा ग्रुप D परीक्षा की तैयारी के लिए जरूरी Important Concepts, Facts, Definitions, Formulas और Exam-Relevant Information को व्यवस्थित तरीके से शामिल किया गया है। Notes को इस तरह तैयार किया गया है कि इनमें न तो जरूरत से ज्यादा लंबा Content हो और न ही इतना कम कि जरूरी Concepts छूट जाएं। हमारा Focus है कि आपको परीक्षा के लिए आवश्यक जानकारी एक ऐसे Format में मिले जिसे आसानी से समझा और बार-बार Revise किया जा सके। अगर आप अपनी तैयारी शुरू कर रहे हैं या Exam से पहले एक Quick & Effective Revision Resource चाहते हैं, तो ये Notes आपकी तैयारी को व्यवस्थित करने में मदद कर सकते हैं।",
+      "shortDesc": "हरियाणा ग्रुप D परीक्षा के लिए सभी महत्वपूर्ण विषयों, Concepts, Facts और Topics को आसान एवं Revision-Friendly तरीके से कवर करने वाले Complete Notes।",
+      "features": [
+        "✅ Complete Syllabus-Oriented Coverage",
+        "📚 सभी महत्वपूर्ण Concepts को सही तरीके से Cover किया गया है",
+        "🎯 Exam-Focused और Relevant Content",
+        "📝 महत्वपूर्ण Facts, Definitions और Key Points शामिल",
+        "⚡ Quick और Effective Revision के लिए Concise Notes",
+        "🔍 न बहुत ज्यादा लंबे, न जरूरत से ज्यादा छोटे",
+        "🧠 आसान भाषा में समझने योग्य Content",
+        "📖 Topic-Wise व्यवस्थित सामग्री",
+        "🔄 पहली बार पढ़ने और Revision दोनों के लिए उपयोगी",
+        "💯 अनावश्यक जानकारी के बजाय Important Content पर Focus",
+        "📌 Haryana Group D Preparation के लिए जरूरी Concepts का Coverage",
+        "🚀 आपकी Study और Revision का समय बचाने के लिए Designed"
+      ],
+      "price": 199,
+      "originalPrice": 299,
+      "discount": "33% OFF",
+      "status": "live",
+      "theme": "dark-red",
+      "badge": "🔥 New",
+      "driveLink": "https://drive.google.com/drive/folders/1WC6Ya3nRtIb3e5fmSIHTJPmXxFp92m5T",
+      "demoLink": "https://drive.google.com/file/d/1cKbuw_aw9elh9CcLWzvkxzArIXpfwPGj/view?usp=drivesdk",
+      "externalLink": null,
+      "bannerUrl": "https://drive.google.com/thumbnail?id=1Uei45EglmD2cJNg7ydAle9-r8EyWsmin&sz=w800",
+      "categories": [
+        "home",
+        "hssc"
+      ],
+      "featured": false,
+      "rating": null,
+      "ratingCount": null,
+      "saleEndsAt": null,
+      "testimonial": null,
+      "faq": null
     }
   ],
   "categories": [
