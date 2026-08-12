@@ -5,10 +5,10 @@
       "name": "HARTRON JR. PROGRAMMER  Question Bank",
       "icon": "📘",
       "tag": "QUESTION BANK",
-      "tagBg": "rgba(255,69,0,.1)",
+      "tagBg": "rgba(220,38,38,.1)",
       "tagColor": "var(--or3)",
-      "iconBg": "rgba(255,69,0,.1)",
-      "description": "Prepare smarter for the HARTRON Junior Programmer 2026 exam with this 1000+ Questions Question Bank, designed according to the official syllabus. Every topic is covered through carefully selected MCQs to help you strengthen concepts, identify weak areas, and gain extensive practice before the exam. Whether you're revising after completing your theory or directly practicing questions, this question bank provides structured, syllabus-focused preparation. It is ideal for self-study, daily practice, quick revision, and mock preparation. With broad coverage of all technical subjects, this resource helps you become familiar with the types of questions likely to appear in the Domain Knowledge Test while improving speed and accuracy. TOPICS COVERED - ASP.NET Visual Basic Java Programming in C/C++ MS Office Internet, HTML & DHTML Windows & Computer Fundamentals Networking System Analysis & Design Hardware Concepts Operating System Database Management System (DBMS) PHP",
+      "iconBg": "rgba(220,38,38,.1)",
+      "description": "HARTRON Junior Programmer 2026 — 1000+ Questions Question Bank\n\nPrepare smarter for the HARTRON Junior Programmer 2026 exam with this 1000+ Questions Question Bank, designed around the official syllabus and focused on extensive MCQ practice.\n\nEvery major topic is covered through carefully selected questions to help you strengthen concepts, identify weak areas, improve speed and accuracy, and build exam confidence.\n\nWhether you are revising after completing your theory or want to focus mainly on question practice, this question bank provides structured, syllabus-focused preparation. It is useful for self-study, daily practice, quick revision, and mock-test preparation.\n\nWith broad coverage of the technical syllabus, you get repeated exposure to different question patterns and important concepts that can help you become more comfortable with the Domain Knowledge Test.\n\n📚 Topics Covered\n\n- ASP.NET\n- Visual Basic\n- Java\n- Programming in C/C++\n- MS Office\n- Internet, HTML & DHTML\n- Windows & Computer Fundamentals\n- Networking\n- System Analysis & Design\n- Hardware Concepts\n- Operating System\n- Database Management System (DBMS)\n- PHP\n\n🎯 Why Practice With This Question Bank?\n\n- 1000+ practice questions covering the technical syllabus\n- Questions organized around the major syllabus topics\n- Helps identify weak concepts and frequently confused areas\n- Useful for daily MCQ practice and revision\n- Helps improve question-solving speed and accuracy\n- Provides broad exposure to different types of technical questions\n- Useful for last-minute revision after completing theory\n- Can be used alongside mock tests for better exam preparation\n\n💻 Best Way to Use It\n\nComplete the theory → Practice topic-wise questions → Revise mistakes → Attempt mocks → Repeat weak topics.\n\nThe goal is not simply to finish 1000+ questions, but to use them to understand why an option is correct and why the others are not.\n\n🚨 Important\n\nThis question bank is a practice and revision resource. No question bank can guarantee the exact questions that will appear in the actual examination. For the best preparation, combine syllabus-based theory, MCQ practice, revision, and mock tests.\n\n🔥 Prepare. Practice. Revise. Perform.\n\nHARTRON Junior Programmer 2026 — Practice More, Improve Accuracy, Build Confidence.",
       "shortDesc": "Master the HARTRON Junior Programmer 2026 syllabus with a comprehensive 1000+ Questions Question Bank. Practice topic-wise MCQs covering every domain in the official syllabus and improve your speed, accuracy, and exam confidence.",
       "features": [
         "1000+ carefully selected practice questions.",
@@ -40,7 +40,12 @@
       "categories": [
         "home"
       ],
-      "featured": true
+      "featured": true,
+      "rating": null,
+      "ratingCount": null,
+      "saleEndsAt": null,
+      "testimonial": null,
+      "faq": null
     },
     {
       "id": "hrn-hi",
